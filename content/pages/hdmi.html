@@ -1,0 +1,41 @@
+---
+{"title": "HDMI Bandwidth Calculator: Do You Need HDMI 2.1?", "description": "Check whether 4K120, 8K60 or high-refresh gaming signals fit HDMI 2.0 or HDMI 2.1 (FRL 24 to 48 Gbps), which cable certification you need, and when eARC matters.", "section": "Tools", "section_url": "tools.html", "crumb": "HDMI", "tool": true, "scripts": ["tools"], "keywords": "hdmi bandwidth calculator, do i need hdmi 2.1, 4k 120hz hdmi, ultra high speed hdmi cable, earc", "faq": [
+ ["Do I need HDMI 2.1 for 4K 120 Hz?", "Yes. 4K at 120 Hz exceeds HDMI 2.0's roughly 14.4 Gbps of usable data. You need HDMI 2.1 ports on both devices and an Ultra High Speed certified cable. Many TVs use 40 Gbps ports, which handle 4K120 at 10-bit."],
+ ["What's the difference between ARC and eARC?", "ARC sends audio from the TV back to a soundbar or receiver but only in compressed formats (it can carry Dolby Digital Plus with Atmos). eARC adds bandwidth for lossless Dolby TrueHD/Atmos and DTS-HD Master Audio from apps or devices plugged into the TV."],
+ ["Do expensive HDMI cables look better?", "No. HDMI is digital: a cable either carries the signal or produces dropouts and sparkles. Buy certified cables for the speed you need (Premium High Speed for 18 Gbps, Ultra High Speed for 48 Gbps); don't pay extra for 'gold' marketing."],
+ ["How accurate is this calculator?", "It uses standard TV video timings and HDMI's encoding overhead, so it's a good guide to which link you need. Exact limits vary slightly by device and timing; check your equipment's specs for edge cases."]
+]}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">Free tool · Connections</span>
+  <h1>HDMI bandwidth checker</h1>
+  <p class="lede">Pick resolution, refresh rate, bit depth and colour format. See the data rate and the minimum HDMI port and cable that carry it.</p>
+</section>
+<div class="wrap">
+  <div class="tool-wrap" id="tool-hdmi">
+    <form class="panel tool-inputs" onsubmit="return false" aria-label="Signal">
+      <div class="field"><label for="hd-res">Resolution</label><select id="hd-res"><option>1080p</option><option>1440p</option><option selected>4K</option><option>8K</option></select></div>
+      <div class="field"><label for="hd-hz">Refresh rate (Hz)</label><select id="hd-hz"><option>24</option><option>30</option><option>50</option><option selected>60</option><option>100</option><option>120</option><option>144</option><option>165</option><option>240</option></select></div>
+      <div class="field"><label for="hd-bit">Bit depth</label><select id="hd-bit"><option value="8">8-bit (SDR)</option><option value="10" selected>10-bit (HDR10, Dolby Vision)</option><option value="12">12-bit</option></select></div>
+      <div class="field"><label for="hd-cs">Colour format</label><select id="hd-cs"><option value="444">RGB / 4:4:4 (PC, games)</option><option value="422">4:2:2</option><option value="420">4:2:0 (most video)</option></select></div>
+    </form>
+    <div class="tool-out">
+      <div class="stat-row" id="hd-out" aria-live="polite"></div>
+      <div class="table-wrap" id="hd-table"></div>
+      <div class="tool-cta"><p>Running HDMI through walls to a projector or receiver? Get it planned right once.</p><a class="btn btn-primary" href="plan.html?src=tool-hdmi">Get my free plan</a></div>
+    </div>
+  </div>
+  {{AD:tool}}
+  <div class="prose">
+    <h2>Common signals at a glance</h2>
+    <div class="table-wrap"><table><thead><tr><th>Signal</th><th>Needs</th></tr></thead><tbody>
+      <tr><td>4K 60 Hz HDR, 4:2:0 (streaming, discs)</td><td>HDMI 2.0, Premium High Speed cable</td></tr>
+      <tr><td>4K 60 Hz 10-bit 4:4:4 (PC desktop)</td><td>HDMI 2.1</td></tr>
+      <tr><td>4K 120 Hz 10-bit (PS5, Xbox Series X, PC)</td><td>HDMI 2.1, 40 Gbps or higher port, Ultra High Speed cable</td></tr>
+      <tr><td>8K 60 Hz 10-bit 4:2:0</td><td>HDMI 2.1</td></tr>
+    </tbody></table></div>
+    <p>For long in-wall runs (over about 25 ft), certified active optical HDMI cables are the reliable choice. Read <a href="guides/hdmi-2-1-earc-explained.html">HDMI 2.1, eARC and cables explained</a>.</p>
+  </div>
+  {{FAQ}}
+  {{CTA:tool-hdmi}}
+</div>

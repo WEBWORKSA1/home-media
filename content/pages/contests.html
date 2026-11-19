@@ -1,0 +1,56 @@
+---
+{"title": "Setup of the Month Contest", "description": "Enter Home.Media's free Setup of the Month contest: share your home theater, living room, gaming den or media server setup and win a gift card for home-theater gear.", "keywords": "home theater contest, setup of the month, home theater giveaway, win home theater gear", "faq": [
+ ["Do I need to buy anything?", "No purchase is necessary to enter or win. A purchase does not improve your chances."],
+ ["Who can enter?", "Residents of the United States and Canada (excluding Quebec) who are 18 or older. Void where prohibited."],
+ ["How is the winner chosen?", "A judging panel scores entries on creativity, smart use of budget, and how helpful the tips are to other readers. It's a skill contest, not a random draw."],
+ ["Can I enter a rented apartment setup?", "Yes. Clever small-space and renter-friendly setups are welcome. So are media-server racks."]
+]}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">{{ICON:trophy}} Free to enter</span>
+  <h1>Setup of the Month · <span data-contest="month">this month</span></h1>
+  <p class="lede">Show us your setup and what you learned building it. The best entry wins <strong data-contest="prize">a gear gift card</strong>. <span data-contest="runnerUp"></span>.</p>
+  <div class="countdown" data-countdown aria-label="Time left to enter"></div>
+</section>
+<div class="wrap">
+  <div class="two-col">
+    <form class="panel form" data-form="contest" novalidate>
+      <h2>Enter your setup</h2>
+      <div class="form-grid">
+        <div class="field"><label for="ct-name">Name</label><input id="ct-name" name="name" required autocomplete="name"></div>
+        <div class="field"><label for="ct-email">Email</label><input id="ct-email" type="email" name="email" required autocomplete="email"></div>
+        <div class="field"><label for="ct-loc">City / region</label><input id="ct-loc" name="location" required></div>
+        <div class="field"><label for="ct-cat">Category</label><select id="ct-cat" name="category"><option>Dedicated theater</option><option>Living room</option><option>Small space / renter</option><option>Gaming den</option><option>Media server / rack</option><option>Outdoor cinema</option></select></div>
+        <div class="field full"><label for="ct-photos">Link to photos</label><input id="ct-photos" type="url" name="photos" required placeholder="https:// (Google Photos, Dropbox, Imgur, forum thread…)"></div>
+        <div class="field"><label for="ct-gear">Main gear</label><input id="ct-gear" name="gear" placeholder="Display, speakers, receiver…"></div>
+        <div class="field"><label for="ct-budget">Approx. total spend</label><select id="ct-budget" name="spend"><option>Under $1,000</option><option>$1,000–$5,000</option><option>$5,000–$20,000</option><option>$20,000+</option></select></div>
+        <div class="field full"><label for="ct-story">Your story and best tip</label><textarea id="ct-story" name="story" rows="5" required placeholder="What problem did you solve? What would you tell someone starting out?"></textarea></div>
+      </div>
+      <label class="check"><input type="checkbox" name="rules" value="agreed" required id="ct-rules"> I'm 18+, I own the photos or have permission to share them, and I agree to the official rules below.</label>
+      <label class="check"><input type="checkbox" name="feature_ok" value="yes"> Home.Media may feature my setup and first name on the site and newsletter.</label>
+      <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-primary btn-lg" type="submit">Submit my entry</button>
+      <p class="form-msg" role="status"></p>
+    </form>
+    <div>
+      <div class="panel">
+        <h2>How it's judged</h2>
+        <div class="table-wrap"><table><tbody>
+          <tr><td>Creativity &amp; problem-solving</td><td class="num">40%</td></tr>
+          <tr><td>Smart use of budget</td><td class="num">30%</td></tr>
+          <tr><td>Helpfulness of your tips</td><td class="num">30%</td></tr>
+        </tbody></table></div>
+        <p class="muted">Big budgets don't win by default. A brilliantly planned $1,500 apartment setup can beat a $50,000 cinema.</p>
+      </div>
+      <div class="panel" style="margin-top:1rem">
+        <h2>Sponsor a prize</h2>
+        <p class="muted">Brands and installers can sponsor a month's prize and get featured with the winner. <a href="advertise.html">Contact us</a>.</p>
+      </div>
+    </div>
+  </div>
+  {{FAQ}}
+  <section class="legal">
+    <h2>Official rules (summary)</h2>
+    <p><strong>No purchase necessary.</strong> Open to legal residents of the United States and Canada (excluding Quebec), 18 or older. Void where prohibited. One entry per person per month. Entries close at the time shown in the countdown (Eastern Time). Winners are selected by a judging panel using the published criteria; Canadian winners must correctly answer a time-limited skill-testing question. Prizes are as described on this page, are non-transferable and have no cash alternative except at Home.Media's discretion. Winners are notified by email and must reply within 14 days or an alternate winner may be chosen. By entering you confirm the photos are yours or that you have permission, and you grant Home.Media a non-exclusive license to display your entry if you ticked the feature box. Personal information is used only to run the contest, as described in our <a href="privacy.html">privacy policy</a>. Sponsor: Home.Media. This contest is not sponsored, endorsed or administered by any social network or equipment brand.</p>
+  </section>
+</div>

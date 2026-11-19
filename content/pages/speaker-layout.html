@@ -1,0 +1,52 @@
+---
+{"title": "Dolby Atmos Speaker Layout Planner (2.1 to 9.2.6)", "description": "Interactive speaker placement planner: enter your room and seat, pick 5.1, 7.1, 5.1.2, 7.1.4 or 9.2.6, and get angles, distances and wall positions for every speaker, plus subwoofer spots.", "section": "Tools", "section_url": "tools.html", "crumb": "Speaker Layout", "tool": true, "scripts": ["tools"], "keywords": "speaker placement calculator, dolby atmos layout, 7.1.4 placement, 5.1.2 speaker angles, surround sound setup", "faq": [
+ ["What do the numbers in 5.1.2 or 7.1.4 mean?", "The first number is ear-level speakers, the second is subwoofers, the third is overhead (height) speakers. So 7.1.4 is seven speakers around you, one subwoofer and four in or near the ceiling."],
+ ["What angles should front speakers be at?", "Front left and right sit 22–30° either side of centre, measured from your seat, angled (toed-in) toward you. The centre speaker sits directly ahead, ideally just above or below the screen."],
+ ["Where do surround speakers go in 5.1 vs 7.1?", "In 5.1, surrounds sit beside and slightly behind you at roughly 100–120°. In 7.1, side surrounds move to about 90–110° and two rear surrounds go behind at 135–150°."],
+ ["Is 5.1.2 or 5.1.4 better?", "Four overhead speakers (front and rear pairs) place sounds more precisely above you than two. If you can only fit two, put them roughly above or slightly in front of the seat."],
+ ["Where should the subwoofer go?", "Start at the front wall about a quarter of the way in from a side wall, then try the 'subwoofer crawl'. With two subs, the front-wall quarter and three-quarter points are a reliable starting place for smoother bass across seats."]
+]}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">Free tool · Sound</span>
+  <h1>Speaker layout planner</h1>
+  <p class="lede">Pick a layout, enter your room, then drag your seat. The planner places every speaker at recommended Dolby-style angles and tells you exactly where to mount it.</p>
+</section>
+<div class="wrap">
+  <div class="tool-wrap" id="tool-spk">
+    <form class="panel tool-inputs" onsubmit="return false" aria-label="Speaker layout inputs">
+      <div class="seg" data-seg="unit" role="group" aria-label="Units"><button type="button" data-val="ft" aria-pressed="true">ft</button><button type="button" data-val="m" aria-pressed="false">m</button></div>
+      <div class="field"><label for="sp-cfg">Speaker layout</label><select id="sp-cfg">
+        <option>2.1</option><option>3.1</option><option>5.1</option><option>7.1</option><option selected>5.1.2</option><option>5.1.4</option><option>7.1.2</option><option>7.1.4</option><option>7.2.4</option><option>9.2.4</option><option>9.2.6</option></select></div>
+      <div class="inline-3">
+        <div class="field"><label for="sp-len">Length (<span data-unit-label>ft</span>)</label><input id="sp-len" type="number" min="8" step="0.5" value="20"></div>
+        <div class="field"><label for="sp-wid">Width (<span data-unit-label>ft</span>)</label><input id="sp-wid" type="number" min="7" step="0.5" value="14"></div>
+        <div class="field"><label for="sp-hgt">Ceiling (<span data-unit-label>ft</span>)</label><input id="sp-hgt" type="number" min="6.5" step="0.5" value="8.5"></div>
+      </div>
+      <div class="field"><label for="sp-seat">Seat distance from screen wall (<span data-unit-label>ft</span>)</label><input id="sp-seat" type="number" min="3" step="0.5" value="12.5"></div>
+      <p class="note">Length runs from the screen wall to the back wall. Ear height uses Dolby's ~3.9 ft (1.2 m) seated reference.</p>
+    </form>
+    <div class="tool-out">
+      <div class="stat-row" id="sp-out" aria-live="polite"></div>
+      <div class="viz" id="sp-viz"></div>
+      <div class="tool-cta"><p>Want in-wall or in-ceiling speakers installed and calibrated?</p><a class="btn btn-primary" id="sp-cta" href="plan.html?src=tool-speakers">Get my free plan</a></div>
+      <div class="share-row"><button class="btn btn-ghost btn-sm" type="button" data-copy-link>Copy link to this layout</button></div>
+    </div>
+  </div>
+  <h2>Where each speaker goes</h2>
+  <div class="table-wrap" id="sp-table"></div>
+  {{AD:tool}}
+  <div class="prose">
+    <h2>Placement principles that matter most</h2>
+    <ol>
+      <li><strong>Front three first.</strong> Left, centre and right carry most dialogue and music. Keep them at roughly ear height, the same distance from your seat where possible, and toed-in toward you.</li>
+      <li><strong>Surrounds slightly above ear height.</strong> One to two feet above seated ears avoids sound being blocked by people and furniture.</li>
+      <li><strong>Overheads in line with the fronts.</strong> Ceiling speakers usually sit in line with, or slightly inside, the front left/right pair. Top-front speakers go in front of you at about 45° up; top-rear behind you at a similar angle.</li>
+      <li><strong>Upfiring modules are a valid fallback.</strong> If you rent or can't cut the ceiling, Dolby Atmos-enabled (upfiring) speakers bounce sound off a flat ceiling. They work best on ceilings between about 7.5 and 12 ft.</li>
+      <li><strong>Let room correction finish the job.</strong> Enter distances, then run Audyssey, Dirac, YPAO or ARC. It sets levels and timing far better than guesswork.</li>
+    </ol>
+    <p>Going deeper? Read <a href="guides/dolby-atmos-speaker-placement.html">Dolby Atmos speaker placement explained</a> and check your room's bass behaviour with the <a href="room-modes.html">room mode calculator</a>.</p>
+  </div>
+  {{FAQ}}
+  {{CTA:tool-speakers}}
+</div>

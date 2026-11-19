@@ -1,0 +1,58 @@
+# Home.Media auto-refresh
+# - Daily: pulls fresh headlines and creator videos, rebuilds the pages, commits.
+# - On push of content or build-script changes: rebuilds the pages, commits.
+# - Manual: Actions > "Home.Media auto-refresh" > Run workflow.
+# If a gh-pages branch exists, it is kept identical to main, so the site is
+# current whichever branch GitHub Pages publishes from.
+name: Home.Media auto-refresh
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # every day, 06:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "scripts/build.py"
+      - "assets/data/prices.json"
+      - "assets/data/channels.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: home-media-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install build dependency
+        run: pip install markdown
+      - name: Fetch news and videos
+        id: update
+        if: github.event_name != 'push'
+        run: python3 scripts/update.py
+      - name: Rebuild pages
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.update.outputs.changed == 'true'
+        run: python3 scripts/build.py
+      - name: Commit and publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Auto-refresh: news, videos and pages ($(date -u +%Y-%m-%d))"
+            git push origin HEAD:main
+          fi
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git push origin HEAD:gh-pages --force
+          fi

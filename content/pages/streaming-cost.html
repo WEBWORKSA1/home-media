@@ -1,0 +1,48 @@
+---
+{"title": "Streaming Cost & Cord-Cutting Savings Calculator", "description": "Add up Netflix, Disney+, HBO Max, YouTube TV and more, compare against your cable bill and see yearly and 5-year savings, equipment payback and a rotation strategy.", "section": "Tools", "section_url": "tools.html", "crumb": "Streaming Cost", "tool": true, "scripts": ["tools"], "keywords": "streaming cost calculator, cord cutting savings, how much do my streaming services cost, cancel cable calculator", "faq": [
+ ["Is cord-cutting still cheaper than cable?", "Usually, but not automatically. If you replace cable with a live TV service plus four or five ad-free on-demand services, the total can approach a cable bill. Cord-cutters who save the most combine a free antenna, one or two on-demand services at a time and free ad-supported apps."],
+ ["What is subscription rotation?", "Keeping only one or two on-demand services active, binging what you want, cancelling and switching to another. Because most services are month-to-month, rotation can cut on-demand spending by half or more."],
+ ["Are these prices current?", "They are reference US list prices from public 2026 price trackers. Services change prices often and run promotions, so every price in the calculator is editable."],
+ ["Do I still need internet?", "Yes. Streaming needs home internet; the calculator assumes you keep it. If your cable company bundled internet and TV, ask for the internet-only price before cancelling."]
+]}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">Free tool · Streaming</span>
+  <h1>Streaming cost &amp; cord-cutting savings calculator</h1>
+  <p class="lede">Tick the services you have (or want), pick the plan, and enter your cable or satellite bill. See your real monthly total, what you'd save per year and how fast new gear pays for itself.</p>
+</section>
+<div class="wrap">
+  <div class="tool-wrap" id="tool-stream">
+    <form class="panel tool-inputs" onsubmit="return false" aria-label="Streaming services">
+      <div class="seg" data-seg="cat" role="group" aria-label="Filter"><button type="button" data-val="all" aria-pressed="true">All</button><button type="button" data-val="svod" aria-pressed="false">On-demand</button><button type="button" data-val="live" aria-pressed="false">Live TV</button><button type="button" data-val="free" aria-pressed="false">Free</button></div>
+      <div class="svc-list" id="sc-list"><p class="muted">Loading prices…</p></div>
+      <p class="note" id="sc-asof"></p>
+    </form>
+    <div class="tool-out">
+      <div class="panel">
+        <div class="inline-2">
+          <div class="field"><label for="sc-cable">Current cable/satellite TV bill ($/month)</label><input id="sc-cable" type="number" min="0" step="1" value="120"></div>
+          <div class="field"><label for="sc-equip">One-time equipment ($)</label><input id="sc-equip" type="number" min="0" step="1" value="60"><span class="hint">Streaming stick, antenna…</span></div>
+        </div>
+      </div>
+      <div class="stat-row" id="sc-out" aria-live="polite"></div>
+      <div class="panel bars" id="sc-bars"></div>
+      <div class="tool-cta"><p>Want help choosing services, an antenna and devices for every TV?</p><a class="btn btn-primary" id="sc-cta" href="plan.html?src=tool-streaming">Get my free plan</a></div>
+      <div class="share-row"><button class="btn btn-ghost btn-sm" type="button" data-copy-link>Copy link to my bundle</button></div>
+    </div>
+  </div>
+  {{AD:tool}}
+  <div class="prose">
+    <h2>Five ways to cut your streaming bill</h2>
+    <ol>
+      <li><strong>Rotate.</strong> Keep two on-demand services at a time. Binge, cancel, switch.</li>
+      <li><strong>Use an antenna for local channels.</strong> In many areas, an antenna brings in major networks free. See our <a href="guides/free-tv-antenna-guide.html">antenna guide</a>.</li>
+      <li><strong>Take the ad tier where you don't mind ads.</strong> The gap between ad-supported and ad-free plans is often $8–$10 per month per service.</li>
+      <li><strong>Check bundles you already pay for.</strong> Phone carriers, internet providers and memberships often include a service.</li>
+      <li><strong>Add free apps.</strong> Tubi, Pluto TV and The Roku Channel fill a lot of evenings for $0.</li>
+    </ol>
+    <p>Before you switch, make sure your internet can handle it with the <a href="bandwidth.html">bandwidth planner</a>, and read <a href="guides/cord-cutting-guide.html">how to cut the cord</a>.</p>
+  </div>
+  {{FAQ}}
+  {{CTA:tool-streaming}}
+</div>

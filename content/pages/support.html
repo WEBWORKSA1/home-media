@@ -1,0 +1,59 @@
+---
+{"title": "Support Home.Media", "description": "Keep Home.Media's calculators and guides free and independent. Support operations, promotion, new writers and video editors, and monthly contest prizes, one-time or monthly.", "keywords": "support home media, donate, sponsor free tools"}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">{{ICON:heart}} Reader supported</span>
+  <h1>Keep the tools free and independent</h1>
+  <p class="lede">Home.Media isn't owned by a brand or retailer, and every calculator is free with no sign-up. Ads cover part of the cost. Readers like you cover the rest, and decide how fast we grow.</p>
+</section>
+<div class="wrap">
+  <h2>Where your support goes</h2>
+  <div class="bars panel" style="margin-bottom:2rem">
+    <div class="bar"><span>Operations</span><span class="bar-track"><span class="bar-fill" style="width:30%"></span></span><span class="num">30%</span></div>
+    <div class="bar"><span>Hiring writers &amp; editors</span><span class="bar-track"><span class="bar-fill" style="width:30%"></span></span><span class="num">30%</span></div>
+    <div class="bar"><span>Promotion &amp; marketing</span><span class="bar-track"><span class="bar-fill teal" style="width:20%"></span></span><span class="num">20%</span></div>
+    <div class="bar"><span>Contest prizes</span><span class="bar-track"><span class="bar-fill teal" style="width:20%"></span></span><span class="num">20%</span></div>
+    <p class="note">Operations: hosting, data feeds, tool development and testing. Hiring: freelance writers, video editors and calibrators. Promotion: getting the free tools in front of people who need them. Prizes: the monthly Setup of the Month contest.</p>
+  </div>
+  <div class="tier-grid">
+    <div class="tier"><span class="kicker">One-time</span><strong>Popcorn</strong><span class="price">$5</span><ul><li>Thank-you on our supporters list (optional)</li></ul><a class="btn btn-ghost" href="#pledge" data-amount="5">Choose</a></div>
+    <div class="tier"><span class="kicker">Monthly</span><strong>Front Row</strong><span class="price">$9<small style="font-size:1rem">/mo</small></span><ul><li>Supporter badge in the newsletter</li><li>Early look at new tools</li></ul><a class="btn btn-ghost" href="#pledge" data-amount="9 monthly">Choose</a></div>
+    <div class="tier pop"><span class="kicker">Most chosen</span><strong>Director's Cut</strong><span class="price">$25<small style="font-size:1rem">/mo</small></span><ul><li>Everything in Front Row</li><li>Vote on the next tool and guide</li><li>Funds one contest prize a quarter</li></ul><a class="btn btn-primary" href="#pledge" data-amount="25 monthly">Choose</a></div>
+    <div class="tier"><span class="kicker">One-time</span><strong>Producer</strong><span class="price">$250</span><ul><li>Name or company on the supporters page</li><li>Sponsors a full month's contest prize</li></ul><a class="btn btn-ghost" href="#pledge" data-amount="250">Choose</a></div>
+  </div>
+  <div class="share-row" style="margin:1.5rem 0">
+    <a class="btn btn-primary" data-pay="paypal" hidden>Give with PayPal</a>
+    <a class="btn btn-primary" data-pay="stripe" hidden>Give by card</a>
+    <a class="btn btn-ghost" data-pay="stripeMonthly" hidden>Give monthly by card</a>
+    <a class="btn btn-ghost" data-pay="bmc" hidden>Buy us a coffee</a>
+  </div>
+  <div class="two-col" id="pledge">
+    <form class="panel form" data-form="support" novalidate>
+      <h2>Make a pledge</h2>
+      <p class="muted" data-pay-none>Tell us what you'd like to give. We'll email a secure payment link (card or PayPal) within one business day.</p>
+      <div class="form-grid">
+        <div class="field"><label for="su-amt">Amount (USD)</label><input id="su-amt" name="amount" required placeholder="e.g. 25 monthly"></div>
+        <div class="field"><label for="su-use">Direct it to</label><select id="su-use" name="direct_to"><option>Wherever it's needed most</option><option>Operations</option><option>Hiring writers &amp; editors</option><option>Promotion &amp; marketing</option><option>Contest prizes</option></select></div>
+        <div class="field"><label for="su-name">Name</label><input id="su-name" name="name" required autocomplete="name"></div>
+        <div class="field"><label for="su-email">Email</label><input id="su-email" type="email" name="email" required autocomplete="email"></div>
+        <div class="field full"><label for="su-msg">Message <span class="hint">(optional)</span></label><textarea id="su-msg" name="message" rows="3"></textarea></div>
+      </div>
+      <label class="check"><input type="checkbox" name="list_publicly" value="yes"> List my name on the supporters page</label>
+      <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-primary btn-lg" type="submit">Send my pledge</button>
+      <p class="form-msg" role="status"></p>
+    </form>
+    <div class="panel">
+      <h2>Other ways to help</h2>
+      <ul class="feature-list">
+        <li>Share a tool with a friend who's buying a TV</li>
+        <li>Link to a guide from your forum post or blog</li>
+        <li>Enter <a href="contests.html">Setup of the Month</a> and share your tips</li>
+        <li>Write or film for us: see <a href="careers.html">careers</a></li>
+        <li>Sponsor a tool for your brand: see <a href="advertise.html">advertise</a></li>
+      </ul>
+      <p class="note">Home.Media is a business, not a registered charity, so support isn't tax-deductible. Thank you either way.</p>
+    </div>
+  </div>
+</div>
+<script>document.addEventListener("click",function(e){var a=e.target.closest("[data-amount]");if(!a)return;var i=document.getElementById("su-amt");if(i)i.value=a.getAttribute("data-amount");});</script>

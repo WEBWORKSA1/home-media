@@ -1,0 +1,317 @@
+[
+{
+"t": "About Home.Media",
+"u": "about.html",
+"d": "Home.Media is an independent planning hub for home theaters, streaming and media servers: free calculators, practical guides and a free planning service.",
+"k": "about home media",
+"y": "Page"
+},
+{
+"t": "Advertise, Sponsor & Partner with Home.Media",
+"u": "advertise.html",
+"d": "Reach people actively planning TVs, projectors, Dolby Atmos systems, streaming bundles and media servers. Tool sponsorships, guide sponsorships, newsletter placements and partnerships.",
+"k": "advertise home theater website, sponsor av calculator, home entertainment advertising, partnership",
+"y": "Page"
+},
+{
+"t": "Streaming Bandwidth Planner: What Internet Speed Do You Need?",
+"u": "bandwidth.html",
+"d": "Count your 4K and HD streams, video calls, gaming and smart devices to get the internet plan, upload speed and monthly data your household really needs.",
+"k": "internet speed for streaming, how many mbps for 4k, bandwidth calculator household, data cap streaming",
+"y": "Tool"
+},
+{
+"t": "Careers & Freelance Work at Home.Media",
+"u": "careers.html",
+"d": "Write, film, calibrate or build for Home.Media. Open freelance roles for AV writers, video editors, calibrators, installer partners, community moderators, developers and sponsorship sales.",
+"k": "home theater writer jobs, av freelance writer, video editor tech, sponsorship sales remote",
+"y": "Page"
+},
+{
+"t": "Contact Home.Media",
+"u": "contact.html",
+"d": "Contact Home.Media with questions, corrections, partnership ideas or feedback on our home theater and streaming tools.",
+"k": "contact home media",
+"y": "Page"
+},
+{
+"t": "Setup of the Month Contest",
+"u": "contests.html",
+"d": "Enter Home.Media's free Setup of the Month contest: share your home theater, living room, gaming den or media server setup and win a gift card for home-theater gear.",
+"k": "home theater contest, setup of the month, home theater giveaway, win home theater gear",
+"y": "Page"
+},
+{
+"t": "Home Theater Cost Estimator (2026)",
+"u": "cost-estimator.html",
+"d": "Estimate the cost of a home theater or media room: TV or projector, sound system, seating, acoustics, lighting, construction and pro installation, with low, typical and premium totals.",
+"k": "home theater cost calculator, how much does a home theater cost, media room cost, home theater installation cost 2026",
+"y": "Tool"
+},
+{
+"t": "Disclaimer",
+"u": "disclaimer.html",
+"d": "Estimates, safety, pricing, sponsorship and affiliate disclosures for Home.Media.",
+"k": "disclaimer",
+"y": "Page"
+},
+{
+"t": "Editorial Policy",
+"u": "editorial-policy.html",
+"d": "How Home.Media researches, writes, sources data, handles sponsorships and corrects mistakes.",
+"k": "editorial policy",
+"y": "Page"
+},
+{
+"t": "Home Theater, Streaming & Media Server Guides",
+"u": "guides/index.html",
+"d": "Practical guides to TV sizes, projectors, Dolby Atmos speaker placement, soundbars, cord-cutting, internet speed, Plex and Jellyfin, media servers, acoustics, HDMI 2.1 and home theater costs.",
+"k": "home theater guide, streaming guide, media server guide",
+"y": "Page"
+},
+{
+"t": "HDMI Bandwidth Calculator: Do You Need HDMI 2.1?",
+"u": "hdmi.html",
+"d": "Check whether 4K120, 8K60 or high-refresh gaming signals fit HDMI 2.0 or HDMI 2.1 (FRL 24 to 48 Gbps), which cable certification you need, and when eARC matters.",
+"k": "hdmi bandwidth calculator, do i need hdmi 2.1, 4k 120hz hdmi, ultra high speed hdmi cable, earc",
+"y": "Tool"
+},
+{
+"t": "Home.Media",
+"u": "index.html",
+"d": "Plan your home theater, streaming and media server the smart way: 10 free calculators, expert guides, daily news and a free Home Media Plan with instant cost estimate.",
+"k": "home theater planner, home media, streaming cost, speaker placement, tv size, media server",
+"y": "Page"
+},
+{
+"t": "Trademark & Copyright Disclosure",
+"u": "legal.html",
+"d": "Home.Media's trademark and copyright disclosure: independent ownership, no affiliation with similarly named publications or products, third-party marks, embedded media and takedown requests.",
+"k": "trademark disclosure, copyright notice",
+"y": "Page"
+},
+{
+"t": "Home Theater Setup Matchmaker Quiz",
+"u": "matchmaker.html",
+"d": "Answer 6 quick questions about your room, budget and habits and get matched to the right home entertainment setup, from a soundbar starter to a dedicated cinema, with a cost range.",
+"k": "what home theater should i buy, home theater quiz, soundbar or surround, projector or tv quiz",
+"y": "Tool"
+},
+{
+"t": "Home Entertainment News: Streaming, TVs, Home Theater",
+"u": "news.html",
+"d": "Daily headlines on streaming prices and services, cord-cutting, TVs and projectors, Dolby Atmos, and media servers like Plex and Jellyfin, refreshed automatically every day.",
+"k": "streaming news, cord cutting news, home theater news, plex news, tv news",
+"y": "Page"
+},
+{
+"t": "Get Your Free Home Media Plan",
+"u": "plan.html",
+"d": "Tell us about your room, budget and goals. Get a recommended screen and sound setup, an instant cost estimate and optional introductions to up to 3 vetted local installers. Free, no obligation.",
+"k": "home theater design help, free home theater plan, home theater installer quote, tv mounting quote, media room design",
+"y": "Page"
+},
+{
+"t": "Privacy Policy",
+"u": "privacy.html",
+"d": "How Home.Media collects, uses and protects information, including cookies, Google AdSense advertising, forms and your choices.",
+"k": "privacy policy",
+"y": "Page"
+},
+{
+"t": "Projector Throw Distance & Brightness Calculator",
+"u": "projector.html",
+"d": "Calculate projector throw distance, image size and real-world brightness in foot-lamberts for your screen gain and room lighting. Presets for ultra-short, short and long throw.",
+"k": "projector throw calculator, throw ratio, projector screen size, foot lamberts, lumens calculator",
+"y": "Tool"
+},
+{
+"t": "For Installers & Integrators: Join the Home.Media Pro Network",
+"u": "pros.html",
+"d": "Get pre-scoped, qualified home theater, TV mounting, Atmos, projector, whole-home audio and smart home leads in your area. Apply to join the Home.Media installer network.",
+"k": "home theater installer leads, av integrator leads, tv mounting leads, cedia integrator marketing, home theater business leads",
+"y": "Page"
+},
+{
+"t": "Room Mode Calculator for Home Theater Bass",
+"u": "room-modes.html",
+"d": "Enter your room's length, width and height to find the axial room modes that cause boomy or missing bass, spot problem ratios and find a better seating position.",
+"k": "room mode calculator, room modes home theater, bass problems room, best room dimensions home theater, standing waves",
+"y": "Tool"
+},
+{
+"t": "TV Size & Viewing Distance Calculator",
+"u": "screen-size.html",
+"d": "Find the right TV or projector screen size for your seating distance (or the right distance for your screen) using SMPTE 30°, THX 40° and 4K visual-acuity limits.",
+"k": "tv size calculator, viewing distance, what size tv, screen size for distance, 4k viewing distance",
+"y": "Tool"
+},
+{
+"t": "Home Media Installation Services & Typical Costs",
+"u": "services.html",
+"d": "What TV mounting, surround sound, projector, home theater, whole-home audio, media server and network installation typically cost in 2026, and how to get matched with vetted local pros.",
+"k": "home media installation cost, tv mounting cost, surround sound installation cost, home theater installer near me, projector installation cost",
+"y": "Page"
+},
+{
+"t": "Dolby Atmos Speaker Layout Planner (2.1 to 9.2.6)",
+"u": "speaker-layout.html",
+"d": "Interactive speaker placement planner: enter your room and seat, pick 5.1, 7.1, 5.1.2, 7.1.4 or 9.2.6, and get angles, distances and wall positions for every speaker, plus subwoofer spots.",
+"k": "speaker placement calculator, dolby atmos layout, 7.1.4 placement, 5.1.2 speaker angles, surround sound setup",
+"y": "Tool"
+},
+{
+"t": "Media Server Storage Calculator (Plex, Jellyfin, Emby)",
+"u": "storage.html",
+"d": "How many terabytes does your Plex, Jellyfin or Emby library need? Estimate storage for movies, TV, music and photos, add growth, and compare RAID, SHR and Unraid drive counts.",
+"k": "plex storage calculator, how many tb for movies, nas size calculator, jellyfin storage, raid calculator media server",
+"y": "Tool"
+},
+{
+"t": "Streaming Cost & Cord-Cutting Savings Calculator",
+"u": "streaming-cost.html",
+"d": "Add up Netflix, Disney+, HBO Max, YouTube TV and more, compare against your cable bill and see yearly and 5-year savings, equipment payback and a rotation strategy.",
+"k": "streaming cost calculator, cord cutting savings, how much do my streaming services cost, cancel cable calculator",
+"y": "Tool"
+},
+{
+"t": "Support Home.Media",
+"u": "support.html",
+"d": "Keep Home.Media's calculators and guides free and independent. Support operations, promotion, new writers and video editors, and monthly contest prizes, one-time or monthly.",
+"k": "support home media, donate, sponsor free tools",
+"y": "Page"
+},
+{
+"t": "Terms of Use",
+"u": "terms.html",
+"d": "Terms for using Home.Media's website, calculators, guides, forms, contests and installer introductions.",
+"k": "terms of use",
+"y": "Page"
+},
+{
+"t": "Free Home Theater & Streaming Calculators",
+"u": "tools.html",
+"d": "10 free tools: TV size and viewing distance, projector throw, Dolby Atmos speaker layout, streaming cost, bandwidth, media server storage, home theater cost, room modes, HDMI and a setup quiz.",
+"k": "home theater calculators, home theater tools, streaming calculator, speaker calculator",
+"y": "Page"
+},
+{
+"t": "Home Theater & Streaming Setup Videos",
+"u": "videos.html",
+"d": "Hand-picked videos on speaker placement, projectors vs TVs, cord-cutting and media servers, plus the latest uploads from independent AV creators, refreshed daily.",
+"k": "home theater setup video, speaker placement video, plex jellyfin video, cord cutting video",
+"y": "Page"
+},
+{
+"t": "How to Set Up a Home Theater: The Complete Beginner's Guide",
+"u": "guides/home-theater-setup-guide.html",
+"d": "A step-by-step plan for your first home theater: choosing the room, screen size, sound system, sources, wiring and calibration, in the order that avoids expensive mistakes.",
+"k": "how to set up a home theater, home theater for beginners, home theater setup steps",
+"y": "Guide"
+},
+{
+"t": "Small Room & Apartment Home Theater Ideas",
+"u": "guides/small-room-home-theater.html",
+"d": "How to build a great home theater in a bedroom, small living room or rental: screen sizing, compact and wireless sound, neighbour-friendly bass, renter-safe mounting and light control.",
+"k": "small room home theater, apartment home theater, bedroom home theater ideas, renter friendly home theater, small space surround sound",
+"y": "Guide"
+},
+{
+"t": "What Size TV Should I Get? Viewing Distance Explained",
+"u": "guides/tv-size-viewing-distance.html",
+"d": "How to choose the right TV size for your seating distance using viewing angles and resolution, with a ready-reckoner table for 43 to 100-inch screens.",
+"k": "what size tv should i get, tv viewing distance chart, tv size for room, 4k viewing distance",
+"y": "Guide"
+},
+{
+"t": "Projector vs TV: Which Is Right for Your Room?",
+"u": "guides/projector-vs-tv.html",
+"d": "An honest comparison of projectors and big TVs: picture size, brightness, contrast, HDR, room light, sound, cost per inch and maintenance, with a quick decision guide.",
+"k": "projector vs tv, should i get a projector, ust projector vs tv, projector for living room",
+"y": "Guide"
+},
+{
+"t": "HDMI 2.1, eARC and Cables: What Actually Matters",
+"u": "guides/hdmi-2-1-earc-explained.html",
+"d": "HDMI 2.0 vs 2.1, 4K120 and VRR for gaming, ARC vs eARC for Dolby Atmos, cable certifications, long runs and the settings people miss.",
+"k": "hdmi 2.1 explained, earc vs arc, ultra high speed hdmi cable, 4k 120hz hdmi, hdmi cable for atmos",
+"y": "Guide"
+},
+{
+"t": "TV Picture Settings: Calibration Basics Anyone Can Do",
+"u": "guides/picture-settings-calibration.html",
+"d": "Get an accurate, great-looking picture in ten minutes: which picture mode to use, motion smoothing, brightness, colour temperature, HDR settings and when professional calibration is worth it.",
+"k": "best tv picture settings, filmmaker mode, turn off motion smoothing, tv calibration",
+"y": "Guide"
+},
+{
+"t": "Dolby Atmos Speaker Placement: 5.1.2 to 7.1.4 Explained",
+"u": "guides/dolby-atmos-speaker-placement.html",
+"d": "Where to put every speaker in a Dolby Atmos system: angles, heights, overhead positions, upfiring modules, subwoofers and how many height channels you really need.",
+"k": "dolby atmos speaker placement, 7.1.4 speaker placement, 5.1.2 setup, ceiling speaker placement atmos, upfiring speakers",
+"y": "Guide"
+},
+{
+"t": "Soundbar vs Surround Sound: An Honest Comparison",
+"u": "guides/soundbar-vs-surround-sound.html",
+"d": "Soundbar or a receiver with separate speakers? Compare sound quality, immersion, space, wiring, upgradability and cost to choose the right system for your room.",
+"k": "soundbar vs surround sound, soundbar or receiver, is a soundbar worth it, home theater speakers vs soundbar",
+"y": "Guide"
+},
+{
+"t": "Room Acoustics for Home Theater: The 80/20 Guide",
+"u": "guides/room-acoustics-basics.html",
+"d": "The few acoustic changes that make the biggest difference: seating position, first reflections, bass and room modes, multiple subwoofers, room correction and sound isolation.",
+"k": "home theater acoustics, room acoustics basics, acoustic panels home theater, bass traps, room modes",
+"y": "Guide"
+},
+{
+"t": "How to Cut the Cord in 2026 (and Actually Save Money)",
+"u": "guides/cord-cutting-guide.html",
+"d": "A practical plan to replace cable or satellite: what you watch, antenna for locals, live TV vs on-demand services, streaming devices, internet needs and the rotation strategy that saves the most.",
+"k": "how to cut the cord, cord cutting guide 2026, cancel cable, replace cable tv, cheapest way to watch tv",
+"y": "Guide"
+},
+{
+"t": "How Much Internet Speed Do You Need for Streaming?",
+"u": "guides/internet-speed-for-streaming.html",
+"d": "Mbps per 4K and HD stream, how to size a plan for a busy household, upload speed for calls and gaming, data caps, and Wi-Fi fixes that end buffering.",
+"k": "internet speed for streaming, mbps for 4k streaming, how much internet do i need, buffering fix, wifi for streaming",
+"y": "Guide"
+},
+{
+"t": "Free TV With an Antenna: The Over-the-Air Guide",
+"u": "guides/free-tv-antenna-guide.html",
+"d": "How to get free local HD channels with an antenna: checking reception, indoor vs outdoor vs attic antennas, amplifiers, scanning, NEXTGEN TV (ATSC 3.0) and recording with an OTA DVR.",
+"k": "free tv antenna, over the air tv, best antenna for local channels, ota dvr, atsc 3.0 nextgen tv",
+"y": "Guide"
+},
+{
+"t": "Plex vs Jellyfin vs Emby vs Kodi: Choosing a Media Server",
+"u": "guides/plex-vs-jellyfin-vs-emby-vs-kodi.html",
+"d": "Compare Plex, Jellyfin, Emby and Kodi on cost, ease of use, apps, remote streaming, transcoding, live TV and privacy, and see which fits your household.",
+"k": "plex vs jellyfin, jellyfin vs emby, plex vs kodi, best media server software, media server comparison",
+"y": "Guide"
+},
+{
+"t": "How to Build a Home Media Server (NAS, Mini PC or Old Laptop)",
+"u": "guides/build-a-home-media-server.html",
+"d": "Plan and build a home media server: choosing hardware, storage and RAID, transcoding, folder structure and naming, remote access, backups and keeping it legal.",
+"k": "build a media server, plex server hardware, nas for plex, jellyfin server build, media server backup",
+"y": "Guide"
+},
+{
+"t": "How Much Does a Home Theater Cost in 2026?",
+"u": "guides/home-theater-cost.html",
+"d": "Real 2026 cost ranges for living-room upgrades, media rooms and dedicated home theaters: equipment, labour, construction, acoustics, seating and where to save without regret.",
+"k": "home theater cost, how much does a home theater cost 2026, media room cost, home theater installation cost, basement home theater cost",
+"y": "Guide"
+},
+{
+"t": "How to Hire a Home Theater Installer (Checklist + Questions)",
+"u": "guides/hire-home-theater-installer.html",
+"d": "How to find, vet and hire a home theater or AV installer: certifications, the questions to ask, what a good quote includes, red flags, and how to compare bids fairly.",
+"k": "how to hire a home theater installer, av installer near me, home theater installer questions, cedia installer, home theater quote",
+"y": "Guide"
+}
+]

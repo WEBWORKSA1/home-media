@@ -1,0 +1,45 @@
+---
+{"title": "Room Mode Calculator for Home Theater Bass", "description": "Enter your room's length, width and height to find the axial room modes that cause boomy or missing bass, spot problem ratios and find a better seating position.", "section": "Tools", "section_url": "tools.html", "crumb": "Room Modes", "tool": true, "scripts": ["tools"], "keywords": "room mode calculator, room modes home theater, bass problems room, best room dimensions home theater, standing waves", "faq": [
+ ["What is a room mode?", "A resonance where sound bounces between parallel surfaces and reinforces itself. At those frequencies bass booms at some seats and nearly disappears at others. They matter most below about 200 Hz."],
+ ["Why are matching dimensions bad?", "If two dimensions are equal or simple multiples (say 10 ft and 20 ft), their modes land on the same frequencies and stack up, making one bass note much louder than its neighbours."],
+ ["Can I fix modes without rebuilding the room?", "Yes, mostly. Move the seat away from the room's centre and from the back wall, use two or more subwoofers, then apply room correction EQ. Bass traps help with decay but must be thick to work at low frequencies."],
+ ["Does this calculator include all modes?", "It shows axial modes, the strongest kind, between each pair of opposite walls. Tangential and oblique modes exist too but are weaker; axial modes are the right first check."]
+]}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">Free tool · Acoustics</span>
+  <h1>Room mode (bass) calculator</h1>
+  <p class="lede">Your room's dimensions decide which bass notes boom and which vanish. Check them here before you build, or before you blame your subwoofer.</p>
+</section>
+<div class="wrap">
+  <div class="tool-wrap" id="tool-modes">
+    <form class="panel tool-inputs" onsubmit="return false" aria-label="Room dimensions">
+      <div class="seg" data-seg="unit" role="group" aria-label="Units"><button type="button" data-val="ft" aria-pressed="true">ft</button><button type="button" data-val="m" aria-pressed="false">m</button></div>
+      <div class="field"><label for="rm-l">Length (<span data-unit-label>ft</span>)</label><input id="rm-l" type="number" min="5" step="0.1" value="20"></div>
+      <div class="field"><label for="rm-w">Width (<span data-unit-label>ft</span>)</label><input id="rm-w" type="number" min="5" step="0.1" value="14"></div>
+      <div class="field"><label for="rm-h">Height (<span data-unit-label>ft</span>)</label><input id="rm-h" type="number" min="5" step="0.1" value="8.5"></div>
+    </form>
+    <div class="tool-out">
+      <div class="stat-row" id="rm-out" aria-live="polite"></div>
+      <div class="viz" id="rm-viz"></div>
+      <div class="table-wrap" id="rm-table"></div>
+      <div class="tool-cta"><p>Building a dedicated room? Get the layout and acoustics planned before the drywall.</p><a class="btn btn-primary" href="plan.html?src=tool-modes&amp;type=Dedicated%20home%20theater">Get my free plan</a></div>
+    </div>
+  </div>
+  {{AD:tool}}
+  <div class="prose">
+    <h2>How to read the chart</h2>
+    <p>Each line is a frequency where one pair of walls (or floor and ceiling) resonates. Taller lines are lower-order, stronger modes. Lines bunched together mean those notes will be exaggerated; wide gaps below about 150 Hz mean some bass notes will sound thin. An evenly spread pattern is what you want.</p>
+    <p>The formula is f = n × c ÷ (2 × L), where c is the speed of sound (about 1,125 ft/s or 343 m/s), L is the dimension and n is 1, 2, 3 and so on.</p>
+    <h2>Practical fixes, cheapest first</h2>
+    <ol>
+      <li><strong>Move the seat.</strong> Avoid the exact middle of the room and keep your head off the back wall. Around 38% of the room length from the front or back wall is a classic starting point.</li>
+      <li><strong>Move or add subwoofers.</strong> Two subs at the front-wall quarter points, or front and back, smooth bass across seats far better than one.</li>
+      <li><strong>Run room correction.</strong> Modern receivers' EQ can tame peaks (it can't fill deep nulls; that's what sub placement is for).</li>
+      <li><strong>Add bass traps.</strong> Thick, corner-mounted traps reduce how long bass rings.</li>
+    </ol>
+    <p>More in <a href="guides/room-acoustics-basics.html">room acoustics for home theater</a>.</p>
+  </div>
+  {{FAQ}}
+  {{CTA:tool-modes}}
+</div>

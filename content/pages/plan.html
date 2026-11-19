@@ -1,0 +1,167 @@
+---
+{"title": "Get Your Free Home Media Plan", "description": "Tell us about your room, budget and goals. Get a recommended screen and sound setup, an instant cost estimate and optional introductions to up to 3 vetted local installers. Free, no obligation.", "scripts": ["plan"], "body_class": "no-sticky", "keywords": "home theater design help, free home theater plan, home theater installer quote, tv mounting quote, media room design", "faq": [
+ ["What happens after I submit?", "A specialist reviews your answers and replies within one business day with your plan: recommended screen size, speaker layout, a phased budget and model shortlists. If you asked for installers, we introduce up to three vetted local pros so you can compare quotes."],
+ ["Will I be spammed with calls?", "No. You choose how you want to be contacted. We introduce a maximum of three installers, only if you ask, and never sell your details to data brokers."],
+ ["How does Home.Media make money if the plan is free?", "Installers in our network may pay a referral or membership fee, and the site shows ads. Neither changes your quote, and you're never obliged to hire anyone."],
+ ["Can I use the plan to do it myself?", "Absolutely. Choose 'DIY with a plan' and we'll focus on layout, parts and wiring guidance."]
+]}
+---
+<section class="page-hero wrap" style="text-align:center">
+  <span class="kicker">Free · About 60 seconds · No obligation</span>
+  <h1>Your free Home Media Plan</h1>
+  <p class="lede" style="margin-inline:auto">Recommended setup, instant cost estimate, and (only if you want them) introductions to up to 3 vetted local installers.</p>
+  <div class="trust" style="justify-content:center">
+    <span>{{ICON:plan}} Plan reviewed by a specialist</span>
+    <span>{{ICON:pro}} Max 3 installer intros, only if you ask</span>
+    <span>{{ICON:heart}} Never sold to data brokers</span>
+  </div>
+</section>
+<div class="wrap">
+  <form id="planForm" class="panel wizard" data-plan novalidate>
+    <div class="seg-row" style="justify-content:space-between"><strong id="wzStepLabel">Step 1 of 5</strong><span class="note" id="wzFrom" hidden></span></div>
+    <div class="progress" id="wzProgress" aria-hidden="true"></div>
+
+    <fieldset class="wz-step active q-block" data-need="projects">
+      <legend><h2 style="margin:0">What are you planning?</h2><span class="hint">Choose all that apply.</span></legend>
+      <div class="opt-grid">
+        <label class="opt"><input type="checkbox" name="projects" value="Living-room upgrade" data-label="a project"><span>Living-room upgrade<small>New TV, soundbar or surround</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="Dedicated home theater"><span>Dedicated home theater<small>Room built for movies</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="TV mounting & cable hiding"><span>TV mounting &amp; cable hiding<small>Wall, fireplace, in-wall wiring</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="Surround / Atmos install"><span>Surround / Dolby Atmos<small>In-wall or in-ceiling speakers</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="Projector & screen"><span>Projector &amp; screen<small>Including ultra-short throw</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="Whole-home audio"><span>Whole-home audio<small>Music in every room</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="Smart home & lighting"><span>Smart home &amp; lighting<small>Scenes, shades, one remote</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="Media server / NAS setup"><span>Media server / NAS<small>Plex, Jellyfin, backups</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="Wi-Fi & network for streaming"><span>Wi-Fi &amp; network<small>No more buffering</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="Cut the cord / streaming setup"><span>Cut the cord<small>Antenna, streamers, services</small></span></label>
+        <label class="opt"><input type="checkbox" name="projects" value="Calibration & tuning"><span>Calibration &amp; tuning<small>Picture and sound set up right</small></span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="wz-step q-block" data-need="room,roomsize">
+      <legend><h2 style="margin:0">Tell us about the room</h2></legend>
+      <p class="label">Room type</p>
+      <div class="opt-grid">
+        <label class="opt"><input type="radio" name="room" value="Living / family room" data-label="room type"><span>Living / family room</span></label>
+        <label class="opt"><input type="radio" name="room" value="Basement"><span>Basement</span></label>
+        <label class="opt"><input type="radio" name="room" value="Bonus room / spare room"><span>Bonus / spare room</span></label>
+        <label class="opt"><input type="radio" name="room" value="Bedroom / Apartment"><span>Bedroom or apartment</span></label>
+        <label class="opt"><input type="radio" name="room" value="Outdoor / patio"><span>Outdoor / patio</span></label>
+        <label class="opt"><input type="radio" name="room" value="Whole home"><span>Whole home</span></label>
+      </div>
+      <p class="label">Approximate size</p>
+      <div class="opt-grid">
+        <label class="opt"><input type="radio" name="roomsize" value="Small (under 150 sq ft)" data-label="room size"><span>Small<small>Under 150 sq ft / 14 m²</small></span></label>
+        <label class="opt"><input type="radio" name="roomsize" value="Medium (150–300 sq ft)"><span>Medium<small>150–300 sq ft / 14–28 m²</small></span></label>
+        <label class="opt"><input type="radio" name="roomsize" value="Large (300–500 sq ft)"><span>Large<small>300–500 sq ft / 28–46 m²</small></span></label>
+        <label class="opt"><input type="radio" name="roomsize" value="Extra large (500+ sq ft)"><span>Extra large<small>500+ sq ft / 46+ m²</small></span></label>
+      </div>
+      <p class="label">What do you already have? <span class="hint">(optional)</span></p>
+      <div class="opt-grid">
+        <label class="opt"><input type="checkbox" name="has" value="TV"><span>A TV I'm keeping</span></label>
+        <label class="opt"><input type="checkbox" name="has" value="Soundbar"><span>Soundbar</span></label>
+        <label class="opt"><input type="checkbox" name="has" value="Receiver/speakers"><span>Receiver &amp; speakers</span></label>
+        <label class="opt"><input type="checkbox" name="has" value="Projector"><span>Projector</span></label>
+        <label class="opt"><input type="checkbox" name="has" value="Nothing yet"><span>Starting fresh</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="wz-step q-block" data-need="budget,timeline,install">
+      <legend><h2 style="margin:0">Budget &amp; timing</h2></legend>
+      <p class="label">Total budget (gear + labour)</p>
+      <div class="opt-grid">
+        <label class="opt"><input type="radio" name="budget" value="Under $500" data-label="budget"><span>Under $500</span></label>
+        <label class="opt"><input type="radio" name="budget" value="$500–$2k"><span>$500–$2,000</span></label>
+        <label class="opt"><input type="radio" name="budget" value="$2k–$5k"><span>$2,000–$5,000</span></label>
+        <label class="opt"><input type="radio" name="budget" value="$5k–$15k"><span>$5,000–$15,000</span></label>
+        <label class="opt"><input type="radio" name="budget" value="$15k–$50k"><span>$15,000–$50,000</span></label>
+        <label class="opt"><input type="radio" name="budget" value="$50k+"><span>$50,000+</span></label>
+      </div>
+      <p class="label">When do you want it done?</p>
+      <div class="opt-grid">
+        <label class="opt"><input type="radio" name="timeline" value="ASAP (within 2 weeks)" data-label="timeline"><span>ASAP<small>Within 2 weeks</small></span></label>
+        <label class="opt"><input type="radio" name="timeline" value="1–3 months"><span>1–3 months</span></label>
+        <label class="opt"><input type="radio" name="timeline" value="3–6 months"><span>3–6 months</span></label>
+        <label class="opt"><input type="radio" name="timeline" value="Just researching"><span>Just researching</span></label>
+      </div>
+      <p class="label">How do you want to do it?</p>
+      <div class="opt-grid">
+        <label class="opt"><input type="radio" name="install" value="Pro install" data-label="install preference"><span>Hire a pro<small>Intros to up to 3 vetted installers</small></span></label>
+        <label class="opt"><input type="radio" name="install" value="Design help only"><span>Design help only<small>I'll source the install</small></span></label>
+        <label class="opt"><input type="radio" name="install" value="DIY with a plan"><span>DIY with a plan<small>Layout, parts, wiring tips</small></span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="wz-step q-block" data-need="country,zip,ownership">
+      <legend><h2 style="margin:0">Where is the project?</h2><span class="hint">So we can match local pros and local pricing.</span></legend>
+      <div class="form-grid">
+        <div class="field"><label for="pf-country">Country</label><select id="pf-country" name="country" data-label="country"><option value="">Choose…</option><option>United States</option><option>Canada</option><option>United Kingdom</option><option>Australia</option><option>India</option><option>Other</option></select></div>
+        <div class="field"><label for="pf-zip">ZIP / postal code</label><input id="pf-zip" name="zip" autocomplete="postal-code" maxlength="12" data-label="ZIP / postal code" placeholder="e.g. 10001 or H2X 1Y4"></div>
+        <div class="field full"><label for="pf-city">City <span class="hint">(optional)</span></label><input id="pf-city" name="city" autocomplete="address-level2"></div>
+      </div>
+      <p class="label">You…</p>
+      <div class="opt-grid">
+        <label class="opt"><input type="radio" name="ownership" value="Own the home" data-label="own or rent"><span>Own the home</span></label>
+        <label class="opt"><input type="radio" name="ownership" value="Rent"><span>Rent</span></label>
+      </div>
+      <p class="label">The home is… <span class="hint">(optional)</span></p>
+      <div class="opt-grid">
+        <label class="opt"><input type="radio" name="property" value="Existing home"><span>Existing home</span></label>
+        <label class="opt"><input type="radio" name="property" value="Renovating"><span>Being renovated</span></label>
+        <label class="opt"><input type="radio" name="property" value="New build"><span>New build</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="wz-step q-block" data-need="name,email">
+      <legend><h2 style="margin:0">Where should we send your plan?</h2></legend>
+      <div class="estimate" id="wzEstimate" hidden></div>
+      <div class="form-grid">
+        <div class="field"><label for="pf-name">Your name</label><input id="pf-name" name="name" autocomplete="name" required data-label="name"></div>
+        <div class="field"><label for="pf-email">Email</label><input id="pf-email" type="email" name="email" autocomplete="email" required data-label="email"></div>
+        <div class="field"><label for="pf-phone">Phone <span class="hint">(optional, faster for installers)</span></label><input id="pf-phone" type="tel" name="phone" autocomplete="tel"></div>
+        <div class="field"><label for="pf-pref">Preferred contact</label><select id="pf-pref" name="contact_pref"><option>Email</option><option>Phone call</option><option>Text message</option></select></div>
+        <div class="field full"><label for="pf-notes">Anything else? <span class="hint">(optional: room quirks, gear you like, photos link)</span></label><textarea id="pf-notes" name="notes" rows="3"></textarea></div>
+      </div>
+      <label class="check" style="margin-top:.8rem"><input type="checkbox" name="consent" value="yes" required id="pf-consent"> <span>I agree Home.Media may contact me about my plan and, if I chose "Hire a pro", share my project details with up to 3 vetted installers who may contact me. See the <a href="privacy.html" target="_blank">privacy policy</a>.</span></label>
+      <label class="check" style="margin-top:.5rem"><input type="checkbox" name="tips_optin" value="yes"> <span>Also send me the weekly setup tips email (unsubscribe anytime).</span></label>
+    </fieldset>
+
+    <input type="hidden" name="package"><input type="hidden" name="screen"><input type="hidden" name="config">
+    <input type="hidden" name="source_tool"><input type="hidden" name="estimate"><input type="hidden" name="recommendation">
+    <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <p class="form-msg" id="wzMsg" role="status" aria-live="polite"></p>
+    <div class="wz-nav">
+      <button class="btn btn-ghost" type="button" id="wzBack" hidden>← Back</button>
+      <span></span>
+      <button class="btn btn-primary btn-lg" type="button" id="wzNext">Next →</button>
+      <button class="btn btn-primary btn-lg" type="submit" id="wzSend" hidden>Send me my free plan</button>
+    </div>
+  </form>
+
+  <section class="section">
+    <div class="split">
+      <div>
+        <span class="kicker">Why people use the plan</span>
+        <h2>Avoid the expensive mistakes</h2>
+        <ul class="feature-list">
+          <li>A screen size that suits your seat, not the showroom</li>
+          <li>Speaker positions worked out before anyone drills</li>
+          <li>Wiring and power planned while walls are open</li>
+          <li>A realistic budget with a phased upgrade path</li>
+          <li>Quotes you can compare like-for-like</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <span class="kicker">Typical costs (2026)</span>
+        <div class="table-wrap"><table><tbody>
+          <tr><td>TV wall mounting</td><td class="num">$122–$351</td></tr>
+          <tr><td>Surround installation</td><td class="num">$624–$3,209</td></tr>
+          <tr><td>Projector &amp; screen install</td><td class="num">$1,332–$6,015</td></tr>
+          <tr><td>Installed home theater</td><td class="num">$10k–$60k</td></tr>
+        </tbody></table></div>
+        <p class="note">Sources: Homeyou, Angi. <a href="services.html">More service costs</a>.</p>
+      </div>
+    </div>
+  </section>
+  {{FAQ}}
+</div>

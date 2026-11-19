@@ -1,0 +1,22 @@
+{
+  "asOf": "Reference US list prices compiled from public 2026 price trackers. Prices change often; edit any price.",
+  "services": [
+    {"id": "netflix", "name": "Netflix", "cat": "svod", "def": true, "defPlan": 1, "note": "On-demand", "plans": [{"n": "Standard with ads", "p": 8.99}, {"n": "Standard", "p": 19.99}, {"n": "Premium (4K)", "p": 26.99}]},
+    {"id": "disney", "name": "Disney+", "cat": "svod", "def": true, "note": "On-demand", "plans": [{"n": "With ads", "p": 11.99}, {"n": "Premium (no ads)", "p": 18.99}]},
+    {"id": "hulu", "name": "Hulu", "cat": "svod", "note": "On-demand", "plans": [{"n": "With ads", "p": 9.99}, {"n": "No ads", "p": 18.99}]},
+    {"id": "hbomax", "name": "HBO Max", "cat": "svod", "def": true, "note": "On-demand", "plans": [{"n": "Basic with ads", "p": 10.99}, {"n": "Standard", "p": 18.49}]},
+    {"id": "prime", "name": "Prime Video", "cat": "svod", "note": "Standalone or with Prime", "plans": [{"n": "Prime Video only", "p": 8.99}, {"n": "Amazon Prime membership", "p": 14.99}]},
+    {"id": "appletv", "name": "Apple TV", "cat": "svod", "note": "On-demand", "plans": [{"n": "Monthly", "p": 12.99}]},
+    {"id": "peacock", "name": "Peacock", "cat": "svod", "note": "On-demand + some live sport", "plans": [{"n": "Select", "p": 7.99}, {"n": "Premium", "p": 10.99}, {"n": "Premium Plus", "p": 16.99}]},
+    {"id": "paramount", "name": "Paramount+", "cat": "svod", "note": "On-demand + live CBS (Premium)", "plans": [{"n": "Essential", "p": 8.99}, {"n": "Premium", "p": 13.99}]},
+    {"id": "youtubetv", "name": "YouTube TV", "cat": "live", "note": "Live TV, cable replacement", "plans": [{"n": "Base plan", "p": 82.99}]},
+    {"id": "hululive", "name": "Hulu + Live TV", "cat": "live", "note": "Live TV, cable replacement", "plans": [{"n": "With ads", "p": 89.99}]},
+    {"id": "sling", "name": "Sling TV", "cat": "live", "note": "Budget live TV", "plans": [{"n": "Orange or Blue", "p": 45.99}, {"n": "Orange & Blue", "p": 60.99}]},
+    {"id": "ytpremium", "name": "YouTube Premium", "cat": "svod", "note": "Ad-free YouTube + Music", "plans": [{"n": "Individual", "p": 13.99}]},
+    {"id": "spotify", "name": "Spotify Premium", "cat": "music", "note": "Music", "plans": [{"n": "Individual", "p": 12.99}]},
+    {"id": "tubi", "name": "Tubi", "cat": "free", "note": "Free with ads", "plans": [{"n": "Free", "p": 0}]},
+    {"id": "pluto", "name": "Pluto TV", "cat": "free", "note": "Free live channels with ads", "plans": [{"n": "Free", "p": 0}]},
+    {"id": "roku", "name": "The Roku Channel", "cat": "free", "note": "Free with ads", "plans": [{"n": "Free", "p": 0}]},
+    {"id": "ota", "name": "Antenna (over-the-air)", "cat": "free", "note": "Local channels free after buying an antenna", "plans": [{"n": "Free", "p": 0}]}
+  ]
+}

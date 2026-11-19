@@ -1,0 +1,57 @@
+---
+{"title": "Home Theater Cost Estimator (2026)", "description": "Estimate the cost of a home theater or media room: TV or projector, sound system, seating, acoustics, lighting, construction and pro installation, with low, typical and premium totals.", "section": "Tools", "section_url": "tools.html", "crumb": "Cost Estimator", "tool": true, "scripts": ["tools"], "keywords": "home theater cost calculator, how much does a home theater cost, media room cost, home theater installation cost 2026", "faq": [
+ ["How much does a home theater cost in 2026?", "A living-room upgrade with a good TV and soundbar can be under $2,000. Published 2026 cost guides put a professionally installed home theater at about $20,000 on average, typically $10,000–$60,000, and dedicated room build-outs at $80–$200 per square foot."],
+ ["What costs the most?", "In dedicated rooms, construction (framing, drywall, electrical, HVAC, soundproofing) and seating often cost more than the electronics. In living rooms, the display and sound system dominate."],
+ ["How can I save without regretting it?", "Spend on the screen and the front three speakers first, use a receiver with good room correction, and phase upgrades like extra subwoofers and acoustic panels later. Get the wiring in the walls done once, while walls are open."],
+ ["Where do your numbers come from?", "Labour figures come from 2026 cost guides (Angi, Homeyou, Homewyse). Equipment ranges reflect typical retail prices for each tier. Use the totals for budgeting, then get real quotes."]
+]}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">Free tool · Budget</span>
+  <h1>Home theater cost estimator</h1>
+  <p class="lede">Choose your display, sound, seating and how much building work is involved. See budget, typical and premium totals with a line-by-line breakdown, before you talk to anyone.</p>
+</section>
+<div class="wrap">
+  <div class="tool-wrap" id="tool-cost">
+    <form class="panel tool-inputs" onsubmit="return false" aria-label="Project inputs">
+      <div class="field"><label for="ce-display">Display</label><select id="ce-display"><option value="tv55">TV 55–65"</option><option value="tv75" selected>TV 75–85"</option><option value="tv98">TV 98" or larger</option><option value="pj1">Entry projector + screen</option><option value="pj2">Mid-range 4K projector + screen</option><option value="pj3">High-end projector + screen</option></select></div>
+      <div class="field"><label for="ce-audio">Sound</label><select id="ce-audio"><option value="bar">Soundbar + subwoofer</option><option value="s51">5.1 receiver system</option><option value="atmos" selected>Dolby Atmos 5.1.2–7.1.4</option><option value="ref">Reference / high-end</option></select></div>
+      <div class="field"><label for="ce-seating">Seating</label><select id="ce-seating"><option value="none">Keep existing</option><option value="sofa" selected>New sofa / sectional</option><option value="row">One row of recliners</option><option value="rows">Two rows + riser</option></select></div>
+      <div class="inline-2">
+        <div class="field"><label for="ce-acoustic">Acoustics</label><select id="ce-acoustic"><option value="none">None</option><option value="basic" selected>Basic panels</option><option value="full">Full design</option></select></div>
+        <div class="field"><label for="ce-control">Lighting &amp; control</label><select id="ce-control"><option value="none">None</option><option value="basic" selected>Basic</option><option value="full">Automation</option></select></div>
+      </div>
+      <div class="inline-2">
+        <div class="field"><label for="ce-build">Construction</label><select id="ce-build"><option value="none" selected>None</option><option value="finish">Finish work + wiring</option><option value="full">Full build-out</option></select></div>
+        <div class="field"><label for="ce-sqft">Room size (sq ft)</label><input id="ce-sqft" type="number" min="80" step="10" value="250"></div>
+      </div>
+      <div class="field"><label for="ce-install">Installation</label><select id="ce-install"><option value="pro" selected>Hire a professional</option><option value="diy">Do it myself</option></select></div>
+      <label class="check"><input type="checkbox" id="ce-cal"> Add professional audio + video calibration</label>
+    </form>
+    <div class="tool-out">
+      <div class="stat-row" id="ce-out" aria-live="polite"></div>
+      <div class="table-wrap" id="ce-table"></div>
+      <div class="tool-cta"><p>Turn this estimate into real quotes from vetted local installers.</p><a class="btn btn-primary" id="ce-cta" href="plan.html?src=tool-cost">Get my free plan &amp; quotes</a></div>
+      <div class="share-row"><button class="btn btn-ghost btn-sm" type="button" data-copy-link>Copy link to this estimate</button></div>
+    </div>
+  </div>
+  {{AD:tool}}
+  <div class="prose">
+    <h2>What the published numbers say</h2>
+    <div class="table-wrap"><table><thead><tr><th>Item</th><th class="num">Range</th><th>Source</th></tr></thead><tbody>
+      <tr><td>Installed home theater (average ~$20,000)</td><td class="num">$10,000–$60,000</td><td>Angi</td></tr>
+      <tr><td>Dedicated room build-out</td><td class="num">$80–$200 / sq ft</td><td>Angi</td></tr>
+      <tr><td>Home theater designer</td><td class="num">$500–$3,000</td><td>Angi</td></tr>
+      <tr><td>Home media technician labour</td><td class="num">~$72–$190 / hour</td><td>Homeyou</td></tr>
+      <tr><td>TV wall mounting</td><td class="num">$122–$351</td><td>Homeyou</td></tr>
+      <tr><td>Surround sound installation</td><td class="num">$624–$3,209</td><td>Homeyou</td></tr>
+      <tr><td>Projector &amp; screen installation</td><td class="num">$1,332–$6,015</td><td>Homeyou</td></tr>
+      <tr><td>Basic home theater wiring labour</td><td class="num">$715–$1,056 per system</td><td>Homewyse (May 2026)</td></tr>
+      <tr><td>Acoustic treatment, installed</td><td class="num">$300–$1,000</td><td>Angi</td></tr>
+      <tr><td>Home theater lighting</td><td class="num">$150–$2,500</td><td>Angi</td></tr>
+    </tbody></table></div>
+    <p>For a deeper breakdown, read <a href="guides/home-theater-cost.html">how much a home theater costs</a>, and see <a href="services.html">typical service costs</a>.</p>
+  </div>
+  {{FAQ}}
+  {{CTA:tool-cost}}
+</div>

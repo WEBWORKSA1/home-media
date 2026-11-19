@@ -1,0 +1,39 @@
+---
+{"title": "Home Entertainment News: Streaming, TVs, Home Theater", "description": "Daily headlines on streaming prices and services, cord-cutting, TVs and projectors, Dolby Atmos, and media servers like Plex and Jellyfin, refreshed automatically every day.", "keywords": "streaming news, cord cutting news, home theater news, plex news, tv news"}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">{{ICON:news}} Updated daily</span>
+  <h1>Home media news</h1>
+  <p class="lede">The day's headlines on streaming, cord-cutting, TVs, projectors, home theater audio and media servers, gathered automatically from public news sources. Each headline links to the original publisher.</p>
+</section>
+<div class="wrap two-col">
+  <div>
+    <h2>Latest headlines</h2>
+    {{NEWS:30}}
+  </div>
+  <aside>
+    <div class="panel">
+      <span class="kicker">What it means for you</span>
+      <h2 style="font-size:1.4rem">Price going up again?</h2>
+      <p class="muted">Run your bundle through the streaming cost calculator and see what rotating services would save.</p>
+      <a class="btn btn-primary" href="streaming-cost.html">Check my streaming bill</a>
+    </div>
+    {{AD:sidebar}}
+    <div class="panel" style="margin-top:1rem">
+      <span class="kicker">Tip of the day</span>
+      <p data-tip style="font-weight:600;margin-top:.5rem"></p>
+    </div>
+    <div class="panel" style="margin-top:1rem">
+      <h2 style="font-size:1.2rem">Get the weekly digest</h2>
+      <form class="form" data-form="newsletter" novalidate>
+        <label for="nw-email">Email</label>
+        <input id="nw-email" type="email" name="email" required autocomplete="email">
+        <input type="hidden" name="list" value="weekly-digest">
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+        <p class="form-msg" role="status"></p>
+      </form>
+    </div>
+  </aside>
+</div>
+<div class="wrap">{{CTA:news}}</div>

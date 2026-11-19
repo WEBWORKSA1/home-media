@@ -1,0 +1,50 @@
+---
+{"title": "Media Server Storage Calculator (Plex, Jellyfin, Emby)", "description": "How many terabytes does your Plex, Jellyfin or Emby library need? Estimate storage for movies, TV, music and photos, add growth, and compare RAID, SHR and Unraid drive counts.", "section": "Tools", "section_url": "tools.html", "crumb": "Storage", "tool": true, "scripts": ["tools"], "keywords": "plex storage calculator, how many tb for movies, nas size calculator, jellyfin storage, raid calculator media server", "faq": [
+ ["How big is a 4K movie file?", "It depends on the source. A 4K streaming-quality (WEB) file is often 15–20 GB, an encoded 4K Blu-ray around 30 GB, and a full 4K remux 50–80 GB. Kaleidescape rates its 8 TB server at about 125 high-bitrate 4K movies, roughly 64 GB each."],
+ ["Is RAID a backup?", "No. RAID keeps the server running when a drive fails, but it won't save you from accidental deletion, ransomware, theft or fire. Keep a separate backup of anything irreplaceable, especially family photos and home video."],
+ ["Which protection should I pick?", "For 4 or more large drives, dual parity (RAID 6, SHR-2 or two Unraid parity drives) is the safer choice because rebuilding a big drive takes many hours. With 2 drives, a mirror is simplest."],
+ ["Why keep the array under 80% full?", "File systems slow down and fragment as they fill, and you need room to grow and to rebuild. 80% is a practical ceiling."]
+]}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">Free tool · Media servers</span>
+  <h1>Media server storage calculator</h1>
+  <p class="lede">Size the drives for a Plex, Jellyfin or Emby server before you buy. Count your library, choose quality, add growth, and see how many drives each protection level needs.</p>
+</section>
+<div class="wrap">
+  <div class="tool-wrap" id="tool-store">
+    <form class="panel tool-inputs" onsubmit="return false" aria-label="Library inputs">
+      <div class="inline-2">
+        <div class="field"><label for="st-mc">Movies</label><input id="st-mc" type="number" min="0" value="400"></div>
+        <div class="field"><label for="st-mq">Movie quality</label><select id="st-mq"><option value="2.5">720p web (~2.5 GB)</option><option value="5" selected>1080p web (~5 GB)</option><option value="12">1080p Blu-ray encode (~12 GB)</option><option value="30">1080p remux (~30 GB)</option><option value="18">4K web (~18 GB)</option><option value="30.1">4K encode (~30 GB)</option><option value="62">4K remux (~62 GB)</option></select></div>
+      </div>
+      <div class="inline-2">
+        <div class="field"><label for="st-ec">TV episodes</label><input id="st-ec" type="number" min="0" value="1500"></div>
+        <div class="field"><label for="st-eq">Episode quality</label><select id="st-eq"><option value="0.8">720p (~0.8 GB)</option><option value="1.5" selected>1080p web (~1.5 GB)</option><option value="5">1080p remux (~5 GB)</option><option value="5.1">4K web (~5 GB)</option><option value="12">4K remux (~12 GB)</option></select></div>
+      </div>
+      <div class="inline-2">
+        <div class="field"><label for="st-mu">Music (GB)</label><input id="st-mu" type="number" min="0" value="200"></div>
+        <div class="field"><label for="st-ph">Photos &amp; home video (GB)</label><input id="st-ph" type="number" min="0" value="500"></div>
+      </div>
+      <div class="inline-3">
+        <div class="field"><label for="st-gr">Growth / yr %</label><input id="st-gr" type="number" min="0" max="200" value="25"></div>
+        <div class="field"><label for="st-yr">Years</label><input id="st-yr" type="number" min="0" max="10" value="3"></div>
+        <div class="field"><label for="st-dr">Drive TB</label><select id="st-dr"><option>4</option><option>8</option><option>12</option><option selected>16</option><option>20</option><option>24</option><option>28</option></select></div>
+      </div>
+    </form>
+    <div class="tool-out">
+      <div class="stat-row" id="st-out" aria-live="polite"></div>
+      <div class="table-wrap" id="st-table"></div>
+      <div class="tool-cta"><p>Want a server built, configured and backed up for you?</p><a class="btn btn-primary" id="st-cta" href="plan.html?src=tool-storage">Get my free plan</a></div>
+      <div class="share-row"><button class="btn btn-ghost btn-sm" type="button" data-copy-link>Copy link to this result</button></div>
+    </div>
+  </div>
+  {{AD:tool}}
+  <div class="prose">
+    <h2>Storage is only half the build</h2>
+    <p>For a family server, the CPU matters as much as the disks. If people will watch on phones, browsers or older TVs, the server may need to <strong>transcode</strong> (convert) video on the fly. Hardware transcoding (Intel Quick Sync on most recent Intel chips, or a supported GPU) handles several simultaneous 4K-to-1080p streams with little power. Direct play, where the TV plays the original file, needs almost no CPU at all.</p>
+    <p>Choosing software? Compare them in <a href="guides/plex-vs-jellyfin-vs-emby-vs-kodi.html">Plex vs Jellyfin vs Emby vs Kodi</a>, then follow <a href="guides/build-a-home-media-server.html">how to build a home media server</a>. Only store media you own or are licensed to copy.</p>
+  </div>
+  {{FAQ}}
+  {{CTA:tool-storage}}
+</div>

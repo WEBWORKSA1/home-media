@@ -1,0 +1,57 @@
+---
+{"title": "Projector Throw Distance & Brightness Calculator", "description": "Calculate projector throw distance, image size and real-world brightness in foot-lamberts for your screen gain and room lighting. Presets for ultra-short, short and long throw.", "section": "Tools", "section_url": "tools.html", "crumb": "Projector", "tool": true, "scripts": ["tools"], "keywords": "projector throw calculator, throw ratio, projector screen size, foot lamberts, lumens calculator", "faq": [
+ ["What is throw ratio?", "Throw distance divided by image width. A 1.5 throw ratio needs 1.5 ft of distance for every 1 ft of image width. Ultra-short-throw models are around 0.25 and sit just inches from the wall."],
+ ["How many lumens do I need?", "It depends on screen size, screen gain and room light, which is why we calculate foot-lamberts (fL). In a dark room, 16 fL is the long-standing minimum for SDR film; HDR looks better at 30 fL or more. Living rooms with lights on need 50 fL or more, usually with an ambient-light-rejecting (ALR) screen."],
+ ["Why is the calibrated brightness lower than the rating?", "Rated lumens are measured in the brightest, least accurate mode. Accurate colour modes, eco settings and lamp or laser ageing typically cost 25–40%. We subtract 30% to keep the estimate realistic."],
+ ["Should I choose a zoom lens?", "If you can, yes. A zoom range gives you flexibility to mount the projector where a ceiling joist or shelf actually is, rather than at one exact distance."]
+]}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">Free tool · Projectors</span>
+  <h1>Projector throw &amp; brightness calculator</h1>
+  <p class="lede">Find where to mount a projector for the screen you want, or how big an image you'll get from a fixed spot. Then check whether it will be bright enough for your room.</p>
+</section>
+<div class="wrap">
+  <div class="tool-wrap" id="tool-proj">
+    <form class="panel tool-inputs" onsubmit="return false" aria-label="Projector inputs">
+      <div class="seg-row">
+        <div class="seg" data-seg="mode" role="group" aria-label="Mode"><button type="button" data-val="size" aria-pressed="true">I know screen size</button><button type="button" data-val="dist" aria-pressed="false">I know distance</button></div>
+        <div class="seg" data-seg="unit" role="group" aria-label="Units"><button type="button" data-val="ft" aria-pressed="true">ft</button><button type="button" data-val="m" aria-pressed="false">m</button></div>
+      </div>
+      <div class="field"><label for="pj-preset">Lens type</label><select id="pj-preset"><option value="1.3-1.6">Standard zoom (1.3–1.6)</option><option value="0.25-0.25">Ultra-short throw (0.25)</option><option value="0.5-0.5">Short throw (0.5)</option><option value="1.2-1.2">Fixed standard (1.2)</option><option value="1.4-2.1">Long zoom (1.4–2.1)</option><option value="custom">Custom (type below)</option></select></div>
+      <div class="inline-2">
+        <div class="field"><label for="pj-tr1">Throw ratio min</label><input id="pj-tr1" type="number" step="0.01" min="0.1" value="1.3"></div>
+        <div class="field"><label for="pj-tr2">Throw ratio max</label><input id="pj-tr2" type="number" step="0.01" min="0.1" value="1.6"></div>
+      </div>
+      <div class="field" id="pj-diag-f"><label for="pj-diag">Screen size (diagonal inches)</label><input id="pj-diag" type="number" min="30" max="300" value="120"></div>
+      <div class="field" id="pj-dist-f" hidden><label for="pj-dist">Lens-to-screen distance (<span data-unit-label>ft</span>)</label><input id="pj-dist" type="number" min="0.3" step="0.1" value="14"></div>
+      <div class="field"><label for="pj-aspect">Screen shape</label><select id="pj-aspect"><option value="16:9">16:9</option><option value="2.39:1">2.39:1 scope</option><option value="16:10">16:10</option><option value="4:3">4:3</option></select></div>
+      <div class="inline-2">
+        <div class="field"><label for="pj-lm">Rated lumens</label><input id="pj-lm" type="number" min="100" step="50" value="2500"></div>
+        <div class="field"><label for="pj-gain">Screen gain</label><input id="pj-gain" type="number" min="0.3" max="3" step="0.1" value="1.0"></div>
+      </div>
+      <div class="field"><label for="pj-room">Room lighting</label><select id="pj-room"><option value="dark">Dark, light-controlled</option><option value="dim">Dim, some light</option><option value="living">Living room, lights on</option><option value="bright">Bright / daytime</option></select></div>
+    </form>
+    <div class="tool-out">
+      <div class="stat-row" id="pj-out" aria-live="polite"></div>
+      <div class="viz" id="pj-viz"></div>
+      <div class="tool-cta"><p>Need the projector, screen and mount installed?</p><a class="btn btn-primary" id="pj-cta" href="plan.html?src=tool-projector">Get my free plan</a></div>
+      <div class="share-row"><button class="btn btn-ghost btn-sm" type="button" data-copy-link>Copy link to this result</button></div>
+    </div>
+  </div>
+  {{AD:tool}}
+  <div class="prose">
+    <h2>Reading the results</h2>
+    <p><strong>Throw distance</strong> is measured from the front of the lens to the screen. With a zoom lens you get a range: mount anywhere inside it and zoom to fill the screen. Image <strong>width</strong> is what the throw ratio cares about, so a wide 2.39:1 scope screen needs more distance than a 16:9 screen with the same height.</p>
+    <p><strong>Foot-lamberts (fL)</strong> measure how bright the image looks from your seat. The formula is simple: lumens × screen gain ÷ screen area in square feet. That's why doubling the screen area halves the brightness. A small change in screen size has a big effect on how punchy HDR looks.</p>
+    <div class="table-wrap"><table><thead><tr><th>Room</th><th class="num">Target brightness</th><th>Tip</th></tr></thead><tbody>
+      <tr><td>Dedicated, dark</td><td class="num">16–30 fL</td><td>Matte white 1.0–1.3 gain; dark walls near the screen</td></tr>
+      <tr><td>Dim media room</td><td class="num">30–40 fL</td><td>Consider a grey or mild ALR screen</td></tr>
+      <tr><td>Living room, lights on</td><td class="num">50–60 fL</td><td>ALR screen; ultra-short-throw pairs best with a ceiling-light-rejecting screen</td></tr>
+      <tr><td>Bright / daytime</td><td class="num">75+ fL</td><td>A large TV may be the better tool</td></tr>
+    </tbody></table></div>
+    <p>Not sure a projector is right? Read <a href="guides/projector-vs-tv.html">projector vs TV</a>, then size your seats with the <a href="screen-size.html">viewing distance calculator</a>.</p>
+  </div>
+  {{FAQ}}
+  {{CTA:tool-projector}}
+</div>

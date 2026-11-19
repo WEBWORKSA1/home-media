@@ -1,0 +1,18 @@
+{
+  "note": "Public YouTube feeds used for the daily 'latest videos' refresh. Add a channel by id (UC...) or handle (@name); handles are resolved and cached automatically.",
+  "channels": [
+    {"name": "Cord Cutters News", "id": "UC6tUZA7GiIZPaUu4FQXnFYA", "topic": "stream"},
+    {"name": "AV Nirvana", "id": "UCr6mZBg650KABsJ1Q3RPmCA", "topic": "theater"},
+    {"name": "Crutchfield", "handle": "@crutchfield", "topic": "theater"},
+    {"name": "Audioholics", "handle": "@Audioholics", "topic": "audio"},
+    {"name": "HDTVTest", "handle": "@hdtvtest", "topic": "tv"},
+    {"name": "RTINGS.com", "handle": "@RTINGScom", "topic": "tv"},
+    {"name": "AVForums", "handle": "@AVForums", "topic": "theater"},
+    {"name": "Audio Advice", "handle": "@AudioAdvice", "topic": "theater"},
+    {"name": "The Streamable", "handle": "@thestreamable", "topic": "stream"},
+    {"name": "Plex", "handle": "@plexinc", "topic": "server"}
+  ],
+  "playlists": [
+    {"name": "Team Clark: Cut the Cord", "id": "PLKYMwH5C8rekMddJoE9Y3I3lcA9WDhd1M", "topic": "stream"}
+  ]
+}

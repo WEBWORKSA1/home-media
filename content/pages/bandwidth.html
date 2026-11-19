@@ -1,0 +1,52 @@
+---
+{"title": "Streaming Bandwidth Planner: What Internet Speed Do You Need?", "description": "Count your 4K and HD streams, video calls, gaming and smart devices to get the internet plan, upload speed and monthly data your household really needs.", "section": "Tools", "section_url": "tools.html", "crumb": "Bandwidth", "tool": true, "scripts": ["tools"], "keywords": "internet speed for streaming, how many mbps for 4k, bandwidth calculator household, data cap streaming", "faq": [
+ ["How many Mbps do I need for 4K streaming?", "Netflix recommends 15 Mbps or more per 4K stream, 5 Mbps for 1080p and 3 Mbps for 720p. Other services are similar. Add those up for everything that might run at once, then leave headroom."],
+ ["Why add 50% headroom?", "Advertised speeds are best-case. Wi-Fi overhead, distance from the router, neighbours' networks and background updates all eat into it. 1.5× your peak keeps playback smooth."],
+ ["How much data does 4K streaming use?", "Roughly 7 GB per hour for 4K and about 3 GB per hour for HD. A household streaming four hours of 4K a day uses around 840 GB a month from viewing alone."],
+ ["Is faster internet the fix for buffering?", "Often it's Wi-Fi, not the plan. Move the router to a central spot, use a mesh system in large homes, and connect the main TV or streamer with Ethernet."]
+]}
+---
+<section class="page-hero wrap page-intro">
+  <span class="kicker">Free tool · Network</span>
+  <h1>Streaming bandwidth planner</h1>
+  <p class="lede">Count what your household does at the same time on a busy evening. We'll size the plan, the upload speed and your monthly data so you don't overpay or buffer.</p>
+</section>
+<div class="wrap">
+  <div class="tool-wrap" id="tool-bw">
+    <form class="panel tool-inputs" onsubmit="return false" aria-label="Household usage">
+      <h2 style="font-size:1.2rem">At the same time, at peak</h2>
+      <div class="counter-row"><label for="bw-k4">4K streams (15 Mbps each)</label><span class="stepper"><button type="button" data-step="-1" aria-label="Fewer">−</button><input id="bw-k4" type="number" min="0" value="1"><button type="button" data-step="1" aria-label="More">+</button></span></div>
+      <div class="counter-row"><label for="bw-fhd">1080p HD streams (5 Mbps)</label><span class="stepper"><button type="button" data-step="-1" aria-label="Fewer">−</button><input id="bw-fhd" type="number" min="0" value="2"><button type="button" data-step="1" aria-label="More">+</button></span></div>
+      <div class="counter-row"><label for="bw-hd">720p / phone streams (3 Mbps)</label><span class="stepper"><button type="button" data-step="-1" aria-label="Fewer">−</button><input id="bw-hd" type="number" min="0" value="1"><button type="button" data-step="1" aria-label="More">+</button></span></div>
+      <div class="counter-row"><label for="bw-call">HD video calls</label><span class="stepper"><button type="button" data-step="-1" aria-label="Fewer">−</button><input id="bw-call" type="number" min="0" value="1"><button type="button" data-step="1" aria-label="More">+</button></span></div>
+      <div class="counter-row"><label for="bw-game">Online console/PC gaming</label><span class="stepper"><button type="button" data-step="-1" aria-label="Fewer">−</button><input id="bw-game" type="number" min="0" value="0"><button type="button" data-step="1" aria-label="More">+</button></span></div>
+      <div class="counter-row"><label for="bw-cloud">Cloud gaming in 4K</label><span class="stepper"><button type="button" data-step="-1" aria-label="Fewer">−</button><input id="bw-cloud" type="number" min="0" value="0"><button type="button" data-step="1" aria-label="More">+</button></span></div>
+      <div class="counter-row"><label for="bw-wfh">Big work uploads / cloud backup</label><span class="stepper"><button type="button" data-step="-1" aria-label="Fewer">−</button><input id="bw-wfh" type="number" min="0" value="0"><button type="button" data-step="1" aria-label="More">+</button></span></div>
+      <div class="counter-row"><label for="bw-iot">Smart devices (cameras, speakers)</label><span class="stepper"><button type="button" data-step="-1" aria-label="Fewer">−</button><input id="bw-iot" type="number" min="0" value="6"><button type="button" data-step="1" aria-label="More">+</button></span></div>
+      <div class="counter-row"><label for="bw-web">People browsing / social</label><span class="stepper"><button type="button" data-step="-1" aria-label="Fewer">−</button><input id="bw-web" type="number" min="0" value="2"><button type="button" data-step="1" aria-label="More">+</button></span></div>
+      <h2 style="font-size:1.2rem;margin-top:1rem">Daily viewing (for data use)</h2>
+      <div class="inline-2">
+        <div class="field"><label for="bw-h4k">Hours of 4K / day</label><input id="bw-h4k" type="number" min="0" step="0.5" value="2"></div>
+        <div class="field"><label for="bw-hhd">Hours of HD / day</label><input id="bw-hhd" type="number" min="0" step="0.5" value="3"></div>
+      </div>
+    </form>
+    <div class="tool-out">
+      <div class="stat-row" id="bw-out" aria-live="polite"></div>
+      <div class="tool-cta"><p>Dead zones or buffering? A network tune-up is often cheaper than a faster plan.</p><a class="btn btn-primary" id="bw-cta" href="plan.html?src=tool-bandwidth">Get my free plan</a></div>
+    </div>
+  </div>
+  {{AD:tool}}
+  <div class="prose">
+    <h2>Per-stream rates we use</h2>
+    <div class="table-wrap"><table><thead><tr><th>Activity</th><th class="num">Download</th><th class="num">Upload</th></tr></thead><tbody>
+      <tr><td>4K / UHD stream</td><td class="num">15 Mbps</td><td class="num">0.5 Mbps</td></tr>
+      <tr><td>1080p stream</td><td class="num">5 Mbps</td><td class="num">0.3 Mbps</td></tr>
+      <tr><td>720p stream</td><td class="num">3 Mbps</td><td class="num">0.2 Mbps</td></tr>
+      <tr><td>HD video call</td><td class="num">4 Mbps</td><td class="num">3.5 Mbps</td></tr>
+      <tr><td>Cloud gaming (4K)</td><td class="num">35 Mbps</td><td class="num">1 Mbps</td></tr>
+    </tbody></table></div>
+    <p>Streaming rates follow Netflix's published recommendations (3 Mbps HD, 5 Mbps Full HD, 15 Mbps 4K). Other figures are conservative planning values. Read more in <a href="guides/internet-speed-for-streaming.html">how much internet speed you need for streaming</a>.</p>
+  </div>
+  {{FAQ}}
+  {{CTA:tool-bandwidth}}
+</div>

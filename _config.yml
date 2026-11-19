@@ -1,0 +1,12 @@
+# GitHub Pages serves the pre-built HTML as-is. Jekyll only copies files and
+# keeps the working folders below out of the published site.
+title: Home.Media
+exclude:
+  - README.md
+  - RESEARCH.md
+  - PROMPTS.md
+  - content
+  - scripts
+  - automation
+  - Gemfile
+  - Gemfile.lock
