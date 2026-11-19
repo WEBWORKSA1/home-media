@@ -32,6 +32,9 @@ NEWS_QUERIES = [
     ("theater", "Home theater", '"home theater" OR "home cinema"'),
 ]
 BLOCK = re.compile(r"\b(porn|casino|crypto|bitcoin|lottery|obituar)", re.I)
+# Press-release wires and market-research spam are not news for readers.
+SPAM_SOURCES = re.compile(r"presswire|pr newswire|prnewswire|globe ?newswire|business ?wire|openpr|accesswire|newsfile|einnews|marketsandmarkets|market\.us|digital journal|barchart", re.I)
+SPAM_TITLES = re.compile(r"market (size|share|report|growth|forecast)|\bcagr\b|leading .*manufacturer|press release", re.I)
 
 
 def get(url, timeout=25):
@@ -76,7 +79,7 @@ def fetch_news():
             if source and title.endswith(" - " + source):
                 title = title[: -len(" - " + source)]
             key = re.sub(r"[^a-z0-9]", "", title.lower())[:80]
-            if not title or not link or key in seen or BLOCK.search(title):
+            if not title or not link or key in seen or BLOCK.search(title) or SPAM_SOURCES.search(source) or SPAM_TITLES.search(title):
                 continue
             try:
                 d = email.utils.parsedate_to_datetime(it.findtext("pubDate"))
