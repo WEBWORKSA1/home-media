@@ -1,22 +1,187 @@
 {
-  "updated": "2026-11-19T08:00:00Z",
+  "updated": "2026-11-19T08:10:51Z",
   "featured": [
-    {"id": "zRBJPk9qej4", "title": "Speaker Placement Guide: 5.1 to 7.2.4 Dolby Atmos, DTS:X & Auro 3D", "channel": "Spec of Tech", "topic": "speakers"},
-    {"id": "Yr8rf-TH_y8", "title": "100 inch Home Cinema: TV vs Projector, Which is Best?", "channel": "YouTube", "topic": "projector"},
-    {"id": "lBTFMAgu710", "title": "Cord Cutting for Beginners", "channel": "YouTube", "topic": "stream"},
-    {"id": "NlxDi9YJyMo", "title": "Plex vs Jellyfin: Which Media Server is Best for You?", "channel": "YouTube", "topic": "server"},
-    {"id": "A1ib_lWdj-k", "title": "How to Set up a 5.1 Home Theater Speaker System", "channel": "YouTube", "topic": "speakers"},
-    {"id": "BrpvLMGsXxw", "title": "Sony Projectors vs TVs: Which Is Best for Your Home Theater?", "channel": "ListenUp", "topic": "projector"},
-    {"id": "U23gssQeYWU", "title": "The Ultimate Guide to Live TV Streaming Services", "channel": "YouTube", "topic": "stream"},
-    {"id": "6VeevmBqGBk", "title": "Emby vs Plex vs Jellyfin: Which One's Right for You", "channel": "YouTube", "topic": "server"},
-    {"id": "86FwExaUqLc", "title": "Best Rear Speaker Placement for Soundbars and Home Theatres", "channel": "YouTube", "topic": "speakers"},
-    {"id": "6zV62Xc7rnQ", "title": "TV vs. Projector for Home Theater", "channel": "YouTube", "topic": "projector"},
-    {"id": "4LdJP7r-0N4", "title": "Cord Cutting: Choosing the Best Streaming Services", "channel": "YouTube", "topic": "stream"},
-    {"id": "q___hpKGBtc", "title": "Replace Plex with Jellyfin: Complete Setup Guide (2026)", "channel": "YouTube", "topic": "server"},
-    {"id": "vQ6jdBIIelc", "title": "6 Rear Surround Speaker Placement Hacks to Improve Your Home Theater Sound", "channel": "YouTube", "topic": "speakers"},
-    {"id": "KgUVGvFRCsk", "title": "TV or Projector? Both: The Ultimate Hidden Home Theater Setup", "channel": "YouTube", "topic": "projector"},
-    {"id": "UTodcQc57PY", "title": "Cutting the Cord: Getting the Most out of Streaming Services", "channel": "YouTube", "topic": "stream"},
-    {"id": "FB8lQ1kFZ_A", "title": "Kodi vs Plex vs Jellyfin Comparison 2026", "channel": "YouTube", "topic": "server"}
+    {
+      "id": "zRBJPk9qej4",
+      "title": "Speaker Placement Guide: 5.1 to 7.2.4 Dolby Atmos, DTS:X & Auro 3D",
+      "channel": "Spec of Tech",
+      "topic": "speakers"
+    },
+    {
+      "id": "Yr8rf-TH_y8",
+      "title": "100 inch Home Cinema: TV vs Projector, Which is Best?",
+      "channel": "YouTube",
+      "topic": "projector"
+    },
+    {
+      "id": "lBTFMAgu710",
+      "title": "Cord Cutting for Beginners",
+      "channel": "YouTube",
+      "topic": "stream"
+    },
+    {
+      "id": "NlxDi9YJyMo",
+      "title": "Plex vs Jellyfin: Which Media Server is Best for You?",
+      "channel": "YouTube",
+      "topic": "server"
+    },
+    {
+      "id": "A1ib_lWdj-k",
+      "title": "How to Set up a 5.1 Home Theater Speaker System",
+      "channel": "YouTube",
+      "topic": "speakers"
+    },
+    {
+      "id": "BrpvLMGsXxw",
+      "title": "Sony Projectors vs TVs: Which Is Best for Your Home Theater?",
+      "channel": "ListenUp",
+      "topic": "projector"
+    },
+    {
+      "id": "U23gssQeYWU",
+      "title": "The Ultimate Guide to Live TV Streaming Services",
+      "channel": "YouTube",
+      "topic": "stream"
+    },
+    {
+      "id": "6VeevmBqGBk",
+      "title": "Emby vs Plex vs Jellyfin: Which One's Right for You",
+      "channel": "YouTube",
+      "topic": "server"
+    },
+    {
+      "id": "86FwExaUqLc",
+      "title": "Best Rear Speaker Placement for Soundbars and Home Theatres",
+      "channel": "YouTube",
+      "topic": "speakers"
+    },
+    {
+      "id": "6zV62Xc7rnQ",
+      "title": "TV vs. Projector for Home Theater",
+      "channel": "YouTube",
+      "topic": "projector"
+    },
+    {
+      "id": "4LdJP7r-0N4",
+      "title": "Cord Cutting: Choosing the Best Streaming Services",
+      "channel": "YouTube",
+      "topic": "stream"
+    },
+    {
+      "id": "q___hpKGBtc",
+      "title": "Replace Plex with Jellyfin: Complete Setup Guide (2026)",
+      "channel": "YouTube",
+      "topic": "server"
+    },
+    {
+      "id": "vQ6jdBIIelc",
+      "title": "6 Rear Surround Speaker Placement Hacks to Improve Your Home Theater Sound",
+      "channel": "YouTube",
+      "topic": "speakers"
+    },
+    {
+      "id": "KgUVGvFRCsk",
+      "title": "TV or Projector? Both: The Ultimate Hidden Home Theater Setup",
+      "channel": "YouTube",
+      "topic": "projector"
+    },
+    {
+      "id": "UTodcQc57PY",
+      "title": "Cutting the Cord: Getting the Most out of Streaming Services",
+      "channel": "YouTube",
+      "topic": "stream"
+    },
+    {
+      "id": "FB8lQ1kFZ_A",
+      "title": "Kodi vs Plex vs Jellyfin Comparison 2026",
+      "channel": "YouTube",
+      "topic": "server"
+    }
   ],
-  "latest": []
+  "latest": [
+    {
+      "id": "I-O4HgXksoA",
+      "title": "Are Vintage Design Speakers Still Worth It in 2026? Acoustic Energy AE2 40th Anniversary Review",
+      "channel": "AVForums",
+      "published": "2026-11-18T17:00:36+00:00",
+      "topic": "theater"
+    },
+    {
+      "id": "T2DMxHGH0Ec",
+      "title": "Why You Can't Hear Movie Dialogue (And How to Fix It) Soundbar Edition",
+      "channel": "Audio Advice",
+      "published": "2026-11-18T14:00:14+00:00",
+      "topic": "theater"
+    },
+    {
+      "id": "n8yfdGY-GcU",
+      "title": "Disney+ & Hulu Are Merging",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-18T12:00:22+00:00",
+      "topic": "stream"
+    },
+    {
+      "id": "sgjh9HlINso",
+      "title": "Wharfedale Elysian 1R and 2R stand-mount speakers | Crutchfield",
+      "channel": "CRUTCHFIELD",
+      "published": "2026-11-17T20:39:50+00:00",
+      "topic": "theater"
+    },
+    {
+      "id": "pkItpmIyfTk",
+      "title": "The First Certified HDMI 2.2 Cables Are Here… Should You Upgrade?",
+      "channel": "HDTVTest",
+      "published": "2026-11-17T14:38:34+00:00",
+      "topic": "tv"
+    },
+    {
+      "id": "6OP1CEjwysY",
+      "title": "The UPN Network is Back & It's Free",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-17T12:05:26+00:00",
+      "topic": "stream"
+    },
+    {
+      "id": "agDJoAuQb3k",
+      "title": "Magcubic HY350GT $169 Projector Looks TOO GOOD on a 150\" Screen! 😱",
+      "channel": "Audioholics",
+      "published": "2026-11-16T21:06:45+00:00",
+      "topic": "audio"
+    },
+    {
+      "id": "KYwErQ32liU",
+      "title": "AT&T & Verizon Shutting Down Phone & DSL Internet",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-16T12:00:14+00:00",
+      "topic": "stream"
+    },
+    {
+      "id": "D9BbLXiUvz0",
+      "title": "MacBook Pro OLED vs Mini LED 👀",
+      "channel": "HDTVTest",
+      "published": "2026-11-14T19:17:09+00:00",
+      "topic": "tv"
+    },
+    {
+      "id": "Fd2mPNSjXMQ",
+      "title": "EXCLUSIVE FIRST LOOK! Chesky Audio LC1.2 & LC2.2 Speakers | Capital Audiofest 2026",
+      "channel": "AV NIRVANA – Home Theater and AV FORUM",
+      "published": "2026-11-13T20:37:01+00:00",
+      "topic": "theater"
+    },
+    {
+      "id": "BqMaHgkOvxE",
+      "title": "A Mini LED TV Bargain on Black Friday?",
+      "channel": "HDTVTest",
+      "published": "2026-11-13T16:43:50+00:00",
+      "topic": "tv"
+    },
+    {
+      "id": "xKINYKFBkJM",
+      "title": "I Tested the New Bowers & Wilkins 805 D5, Here's What Happened",
+      "channel": "AVForums",
+      "published": "2026-11-13T16:00:37+00:00",
+      "topic": "theater"
+    }
+  ]
 }

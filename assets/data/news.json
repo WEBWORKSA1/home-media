@@ -1,16 +1,325 @@
 {
-  "updated": "2026-11-19T08:00:00Z",
+  "updated": "2026-11-19T08:10:51Z",
   "items": [
-    {"title": "What streaming costs in 2026: The price of Netflix, Disney+, HBO Max and more", "url": "https://www.tomsguide.com/entertainment/streaming/what-streaming-costs-in-2026-the-price-of-netflix-disney-plus-max-and-more", "source": "Tom's Guide", "date": "", "topic": "stream", "topicLabel": "Streaming"},
-    {"title": "How Many Movies and TV Shows Do You Get Per Dollar? The 2026 Streaming Value Scorecard", "url": "https://data.reelgood.com/how-many-movies-tv-shows-per-dollar-2026-streaming-value-scorecard/", "source": "Reelgood", "date": "", "topic": "stream", "topicLabel": "Streaming"},
-    {"title": "Streaming Costs Are Rising Fast. Is 'Streamflation' Hitting Your Wallet This Year?", "url": "https://finance.yahoo.com/news/streaming-costs-rising-fast-streamflation-202809298.html", "source": "Yahoo Finance", "date": "", "topic": "stream", "topicLabel": "Streaming"},
-    {"title": "Cord Cutting Today: Big Changes Could Hit Free OTA TV as Roku Expands and Netflix Eyes More NFL Games", "url": "https://cordcuttersnews.com/cord-cutting-today-big-changes-could-hit-free-ota-tv-as-roku-expands-and-netflix-eyes-more-nfl-games/", "source": "Cord Cutters News", "date": "", "topic": "stream", "topicLabel": "Cord-cutting"},
-    {"title": "Cord Cutting Today: There is A New Free Streaming Service Coming From The CW", "url": "https://cordcuttersnews.com/cord-cutting-today-there-is-a-new-free-streaming-service-coming-from-the-cw/", "source": "Cord Cutters News", "date": "", "topic": "stream", "topicLabel": "Cord-cutting"},
-    {"title": "Streaming Services Ranked: Which Platforms Are Truly Worth The Price In 2026?", "url": "https://www.slashgear.com/2104667/streaming-services-ranked-which-platforms-are-worth-price", "source": "SlashGear", "date": "", "topic": "stream", "topicLabel": "Streaming"},
-    {"title": "Home Theater Installation Cost: A Complete 2026 Breakdown", "url": "https://awolvision.com/blogs/awol-vision-blog/home-theater-installation-cost", "source": "AWOL Vision", "date": "2026-05-15T00:00:00Z", "topic": "theater", "topicLabel": "Home theater"},
-    {"title": "Best TV 2026: flagship OLEDs and budget Mini LED sets tried and tested", "url": "https://www.whathifi.com/best-buys/best-tv", "source": "What Hi-Fi?", "date": "", "topic": "tv", "topicLabel": "TVs & projectors"},
-    {"title": "Forget 4K Blu-ray, this pricey media server is the ultimate movie player", "url": "https://techradar.com/televisions/forget-4k-blu-ray-this-pricey-media-server-is-the-ultimate-movie-player", "source": "TechRadar", "date": "", "topic": "server", "topicLabel": "Media servers"},
-    {"title": "Kaleidescape Terra Prime 96TB Movie Server Delivers the Goods: CE Pro Review", "url": "https://www.cepro.com/news/kaleidescape-terra-prime-96tb-movie-server-delivers-the-goods-ce-pro-review/136017/", "source": "CE Pro", "date": "", "topic": "server", "topicLabel": "Media servers"},
-    {"title": "TRaSH Guides and Recyclarr: Automate Perfect Quality Profiles for Radarr and Sonarr (2026)", "url": "https://jellywatch.app/blog/trash-guides-recyclarr-radarr-sonarr-quality-profiles-jellyfin-2026", "source": "JellyWatch", "date": "", "topic": "server", "topicLabel": "Media servers"}
+    {
+      "title": "Leading Chinese Manufacturer Pioneers Global Excellence in Auditorium Chairs and Home Theater Seating",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOS0xzSS1vX0dFcGstSlE2MTF3cm1ka0dpYzg3eUx2aTMyeU9CdXVSX0E1d09UZGxGRERuUDFkNTNTczRmNUxuZnloVTVWR3hlT2pta1F0dUlEeW5jYmZ3WlZnS0RyaUdCcG5rVGFINjhvb250WlZFRTN0a0ZLbnJ0Zm5wM0RkYUg2MmlCNi1FT29yN0FEWWtMZm42YnJlbDBKc3A2Szdhb0dTa0hlV2dNU1BXazhLRXNLaG9WNUVoTFNDbzJuazBtY0tTeEVFZ0VuRnMxNkpTdnFreGsxckI0Zzhn?oc=5",
+      "source": "EIN Presswire",
+      "date": "2026-11-19T07:00:00Z",
+      "topic": "theater",
+      "topicLabel": "Home theater"
+    },
+    {
+      "title": "Edge Rot Plagues WOLED TVs: Burn-In Isn't OLED's Only Problem",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41OHBLQTJTaHhPV0J5UUFEajJvOGtHZXJ4RGZNQ0thMXpDZjVkV3ZXWGk1ZmZWdUJfeHRndjgzTGFoNTg3WV94b1VWUk4tdDZUenM2TGttdm1kX3otMlJaN1hiXzJsYm1JalVyYmVyM0ViNGd0LWc?oc=5",
+      "source": "RTINGS.com",
+      "date": "2026-11-19T05:47:23Z",
+      "topic": "tv",
+      "topicLabel": "TVs & projectors"
+    },
+    {
+      "title": "The 6 Best Short-Throw Projectors - Black Friday 2026",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtTHRncFd2eGdJRU9UOVpnWnBIbkFrcjlYMmV2NnRyNnppNjREWFBxU05nOVpOc0I4d29GaTVyc1BDeU44T3E1dVNzZjhTUmxQOG81WGhRdm0xMFhRM3Ayeml0TnFmY1B5?oc=5",
+      "source": "RTINGS.com",
+      "date": "2026-11-19T04:53:13Z",
+      "topic": "theater",
+      "topicLabel": "Home theater"
+    },
+    {
+      "title": "5 amazing Fire Stick apps you'll wish you downloaded sooner",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNemJ3c2Q5NUR2Zy1MX3Y1dXpROUxzTC1kVFo5RUR3TTM3cFNEVWNOazVCOWJXSWo1VnRqcmlNcDVqR01wODFwbGRzeWJXS2JMOGxxUjlPbTVkUks0LVJCQmU2S1R2OFBsYi12YThQeW5SMDVQVzc4WkxGUjBWRm44YmItekQ4bHRzUlNuUUpB?oc=5",
+      "source": "Pocket-lint",
+      "date": "2026-11-19T01:00:00Z",
+      "topic": "server",
+      "topicLabel": "Media servers"
+    },
+    {
+      "title": "OLED TV deals at Best Buy: 10 stunning discounts on LG, Samsung, and Sony",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd1JNT0VEWi1BbGlSRTB3dzhvcXI0MHMycE56WXNuT0JwNG5xSHRFckktZU55Z2FNakZoU0FieXlyRTlYN09CS3NWRWJYbWVJWFVBT0tseklfUjBfT0I5ZnE3Tk5tZXpJZ2Y4SGdidUJGM0w5MXI0MG1SY3loOXhGaFF1SQ?oc=5",
+      "source": "Mashable",
+      "date": "2026-11-19T00:46:38Z",
+      "topic": "tv",
+      "topicLabel": "TVs & projectors"
+    },
+    {
+      "title": "The 6 Best Dolby Atmos Soundbars of 2026",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WNGpVNDdRLW1raWJRWkpZTjZ3Y0I0MkJ1SVp0dktxRzdNdmw1WXQ3VjBXVzJhWDZiNzk4dDFid0lzMzRSNjhUcjlESWFDWEpzMXpsSjd6bm9WdzNGLWp6U2R0MVZkTW1BaHY3WmloQ2hwQQ?oc=5",
+      "source": "RTINGS.com",
+      "date": "2026-11-19T00:33:37Z",
+      "topic": "audio",
+      "topicLabel": "Home audio"
+    },
+    {
+      "title": "Roku's New OLED TV Is Hundreds Less Than LG and Samsung, and Its OS Is Better Than Both",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZXlvN1hVX3lCZTdhZEQ1a2JnZVNoV1lfWW1Yam96SS0zMXpCN2E0MUhodm9jMU9saGNRZGxfRGpKS1ROT01nVmxSLThDWFVxZS1jM3NTck9MQU1aUnhvY0NEVTRYdHc0OTg3TlVzRktQQ2tXS18yMGs3bVhKaFZsOGEtTWpQSi1WSnZid0xmUlhZN1MxOU9Mag?oc=5",
+      "source": "Popular Mechanics",
+      "date": "2026-11-18T22:00:00Z",
+      "topic": "tv",
+      "topicLabel": "TVs & projectors"
+    },
+    {
+      "title": "Samsung's S90H OLED TV just dropped to its lowest price of the year ahead of Black Friday",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JUE92aXo2aTdVdW9IcUt1SnljWlp0dzVRT2FtSXE5MG1zYkFNSEFhU19rR1lkQkR2WlBoRkdKaV9GMUlsQmpmNnRZN05lT2U2S0w0VjJXX3c3OS00WXd2WWYzS0ZnNnI2?oc=5",
+      "source": "Mashable",
+      "date": "2026-11-18T21:22:28Z",
+      "topic": "tv",
+      "topicLabel": "TVs & projectors"
+    },
+    {
+      "title": "Score Hundreds Off a 65-Inch TV for Less With These Stellar Black Friday Deals",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaFk2eTloSl81NXJMZnEzNGlaZkZzeGt4eHRRdmctTnd6UjlfVzR6SC1oU3l0VWYteTh4cTVvWXV0ZV90UHA3eE1mRmdzZDZhU01SM1NVWnBJOVdDTVJzcDRETlRrd09qUThGelpEcU1SVTVSSHM5LVA5VTZZSGVvbk9ONGc2WUU?oc=5",
+      "source": "CNET",
+      "date": "2026-11-18T21:08:51Z",
+      "topic": "tv",
+      "topicLabel": "TVs & projectors"
+    },
+    {
+      "title": "It's time to stop using Dolby Atmos on streaming services",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9PWGh6Q2RBT09pU1BsM0xWYmxubUFSRFpGQjVMMDhLN3lhcU1yZkVNb1VtMjgzeEFPVVRnVE00QWJfQzVOb0cwZkhOaE13SGJPU00tT01CampmT0pJNlhRVlZ3UWdGSnVpcjQ5NlV5a0JEUUxFbmgwRVRJZEE4QQ?oc=5",
+      "source": "Pocket-lint",
+      "date": "2026-11-18T20:49:20Z",
+      "topic": "audio",
+      "topicLabel": "Home audio"
+    },
+    {
+      "title": "UNC Men's Basketball vs. Marshall (2026): How to Watch, Cord-Cutting Options and Tip-Off Time",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9seTYwMnhTS0dBWXktSUJoOW5nNzZMaDNwcW15RWY4RGpvZlB0blVRMzFocmQzUXhPWjduQ19jVnoxYjNfVVdZ?oc=5",
+      "source": "Chapelboro.com",
+      "date": "2026-11-18T20:27:11Z",
+      "topic": "stream",
+      "topicLabel": "Cord-cutting"
+    },
+    {
+      "title": "Save $75 on YouTube TV with this great early Black Friday deal",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTXFtRHBtSmp1aU1TeEJNR2hpci0tMkNPSE9OYTE2VGVQZ1R2bU1scHhScmhhTENLNkFpWVZaR053RFRSeEc5R1M2VGdENy1kOUJCTGllNkM1QzU2LUlOUGwzeGY2cnhRWU9PYzI4SjhZMEtsbGVLb1MtNjB1WnVDMTd0b1IyVmdVN2FndlMzbkZRRzRnT1VlN1FrTmNvbmNzOWY4M1ZuWWx6WENLNko3OXo4WmlvUkZWZE1RWjA4TE5DSTRScVlkUzNaeDJiS201TWE0?oc=5",
+      "source": "Yahoo Tech",
+      "date": "2026-11-18T19:33:51Z",
+      "topic": "stream",
+      "topicLabel": "Cord-cutting"
+    },
+    {
+      "title": "Sony’s impressive Bravia 8 II OLED hits a new low price ahead of Black Friday",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWUNUcHVQdTFOVmxXSlY2bVU1aG9pRDVTeFE0ZzJCaXNfbGxTNzdWMVUxOWVoR0MwQ2pwenRFSUJNaE1CUFpKRWR1WTVzeTlQLUx1V2ZpdjJPX0J1ZXlFT0I0SE11R1N0UzFlbHVuSDllMFRaTGliMmpvVm1uaERVeFVIaTBUaG9vdEwwQnpCT3YzamRG?oc=5",
+      "source": "The Verge",
+      "date": "2026-11-18T19:30:00Z",
+      "topic": "tv",
+      "topicLabel": "TVs & projectors"
+    },
+    {
+      "title": "Texas could end sales tax on streaming subscriptions as soon as January",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbWdoWG0wWERTaGwzUldDdjRSd3lJdU5CUkZVVlFEUVFSa0R6VWZBdkRpbzU0V3cxV0VCZzlnVnkzWWZ3NWhJeEQxQ0FHQWNkNFVTRkw0MWljUDJuMGJONUlXVzZnYTZybk53WlJMM1lndDRTdFl5Z2tncXlaRVFTaHBNSG5jYjRYMGdwd2RRbkVoRTdENmFmcWluNkxNSEJnbGNtUkFNR0VYbU5scXZQVWpwejBjZmE0bnpB?oc=5",
+      "source": "Houston Chronicle",
+      "date": "2026-11-18T18:30:08Z",
+      "topic": "stream",
+      "topicLabel": "Cord-cutting"
+    },
+    {
+      "title": "Don’t wait for Black Friday — 15 early TV deals on LG, Samsung and Sony worth grabbing now",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX21Felc2SmFjLWJmQzJJaW1qRmVRcFY3MjR6QjFfWTZBc3hOX1RWUXQ5YWZ1cGJrNkFnNDZYdm1DR3M5bGEweFpKR2sxMllZRFlGT1NTYXZWXzVxeTY0T2dTS3JQQS13b1hWN2FsRTFRb2FEVW9CRnM0ZWV1U05BcWhXTFZtdDJnRlQxdlUwX3pOelRVVjcyR2sxaW1pZHBDck9LMlZsMEFCVEd2WWZsTU5sdFdfaTFjdDJqZ0hwSGc?oc=5",
+      "source": "Tom's Guide",
+      "date": "2026-11-18T18:00:00Z",
+      "topic": "tv",
+      "topicLabel": "TVs & projectors"
+    },
+    {
+      "title": "This YouTube TV early Black Friday deal is one of the best streaming sales of the year, saving you $75",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdkNsdmNGS3lCOWNyWXloTU5EUnBDd3QxbFFSQnJwa1otSGFlZmZzRzRfd2dRSnQ4TlNNWVF0M0dDZ3FQZVRkX0x3Q2xqcklhVldDd1FpRFpxV0FvZUVXemphQWowcTI1cDIzMHBUdGZkZXhLRktuck12andEWktyMVQ3dkh5QzFHeV92ck5LZ09FVlRh?oc=5",
+      "source": "Business Insider",
+      "date": "2026-11-18T17:28:00Z",
+      "topic": "stream",
+      "topicLabel": "Cord-cutting"
+    },
+    {
+      "title": "Bose Clears Out Smart Ultra Dolby Atmos Soundbar With Hundreds of Dollars Off in One Last Black Friday Push",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMDl0T2t3MXNfYnBYNDI0Mjd3dndacVA1bng2cWVtLWtPRVgzOUtJRXlqNmwxVjRwRkdvS01Xc1QzcXJWOHRiUkhIdy1NWUlWVUMzaGFVNnprRkJ6THliai12UmsyWVNVY1RHNkVTM0hHOEdpWG95cEZ4VWVlN0pqajZGU3ZkZExZLW1wcU81elUyT0Z6czYxd1dXaWd5RXpfeHp5SDlXN2pZZVhZczV3aDVfR2x0T3dYX243Q1FBTXBtM0xoN1lSdl9PclRmTDJyQ0hSTw?oc=5",
+      "source": "Gizmodo",
+      "date": "2026-11-18T17:10:16Z",
+      "topic": "audio",
+      "topicLabel": "Home audio"
+    },
+    {
+      "title": "How to watch the Spurs on DAZN: Prices, plans, features for new San Antonio NBA streaming home",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNenh0ZnQ4Y3JWNFZFQVVhd25YMjc1ZW0wdWUyRGJqTXdwRjEwdFE4NHNoTnJxTDExcjJ2M1dKU2hHVHd2Ni1VODBhLXlZY0gzRk1vXzhQZGFkVklycnBYSXhkd1lnTHBkWFhtTGtZT3FOdFhEV3VURl9zMFpZSGhtYUw0SXNUTjNIRVFCWXJ4TXRRemY4TDdRX1liMUZsdjFxaG93R3dlZFczbFZuMTh1REotazhFUDN5WlExRElNbkFBaEZCY2NGVENuV3hiQjdnTVE?oc=5",
+      "source": "Sporting News",
+      "date": "2026-11-18T16:47:00Z",
+      "topic": "stream",
+      "topicLabel": "Streaming"
+    },
+    {
+      "title": "Fox networks to upgrade picture quality on YouTube TV",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeUoxcW5XSUZjbm1yeldqdFZEM1h3cnAzOGJSbkhrbm10S24wblVDUk5ySUNDSjhpMzQ1OXlpck05TWdra2djNTU0WXhYYTFueTRqa21QMDVkNTVNQW5LVzFHRGVqeHpwdmtGQjgtazZ0OXhtN04xd254UUg0WC1xVEVKMUZTQQ?oc=5",
+      "source": "Awful Announcing",
+      "date": "2026-11-18T16:04:53Z",
+      "topic": "stream",
+      "topicLabel": "Cord-cutting"
+    },
+    {
+      "title": "Our hi-fi and home cinema experts pick out the best deals in the early Black Friday sales",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeDJycTlkX3FNQVV4OV9WUzcwTlRzcXZEZEs1SHA1TW42Z3pwZVNBcEQ5akU2Tm50QUtNb1lJaXB0SThBU1g3RmZPVEV5NlV0cGlhcTdTSFRrTWtVZUpITmpPSXRfdTNHYW80N1V1RDVNSllJYU5jSW9IMEZpZUNyWTNaRWNPQjVYZzVHblJRUXM4blp0c053R2hDSmxEQUZJSjhLVUdEajBJeS10ZXY0X3pRTjFRVGtuc1V2R0p6cFJ5N1NhWEhRRUtDb1F5cF9ud2Y3N2JhbWQ3SFh6d0t3U3ZZLV9PM0lFMHl0dktBRG1TeUQzeUh2QzE2NW04SXZuM2YtTEgwbw?oc=5",
+      "source": "What Hi-Fi?",
+      "date": "2026-11-18T16:00:42Z",
+      "topic": "theater",
+      "topicLabel": "Home theater"
+    },
+    {
+      "title": "German court orders streaming service Dazn to refund money — Der Spiegel",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRUEtelRhamRZcmN3Tlo3M2RPbjZYMVBKeXpRWWtQQm55RnRFZFlzdHVEVDd0R1JwQi01enBGSlFBcGxwWU52WEJhbHdUR1BmcW5uWUo4RDJ6b1FKX3hWbzdNZzBLcW1mNjhmVVFMSFYwcm9UUUpWYmtTNmRTcnB2OGpiRzdhOW1wSHFsbDNEMkNzdzdaSFR5ZDN1RTNMbVNqRzkzNGtFZWliUDh1cWRFeTBrdDVEZw?oc=5",
+      "source": "UA.NEWS",
+      "date": "2026-11-18T15:35:04Z",
+      "topic": "stream",
+      "topicLabel": "Streaming"
+    },
+    {
+      "title": "Monthly Subscription Streaming Service Prices Up Just 8% Since 2022",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOWlodHNLS1dmREhjRXJSWnB3aklWYUlsMGJ1dTM4OExpUXlCcmVtNUJIcGVJbVhuMVprMUMzMk5YTlgyUWp2aWlBZnB0dk1WSXJ6OTdPY0NTQ2FOUzB3Mk9udmx6NjRTNnVSQkhxX1piMUh5QTNDZlZXMUVjd2R5NEtjOE95VXFROVdtSEpjSzh6LUdXd3hsTllSbHh3ZHVHX29vNTkzTjVHLVp3QjFNbjJLTl9JWmpMQWRFLXFuUQ?oc=5",
+      "source": "TVTechnology",
+      "date": "2026-11-18T13:49:41Z",
+      "topic": "stream",
+      "topicLabel": "Streaming"
+    },
+    {
+      "title": "Parks Associates: Average Base Monthly Subscription Streaming Service Price in the US Reaches $11.08, Up Just 8% Since 2022",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPY012UnFqR1lGSkdybzlmLXhsSGVNTUZlaWhyblhvNzRiQWpGTEVwUGl4eWhxYUdMVTllQzFUTWNuay1kTkxfZ3NjVXZGSzktSGVubDZkTWVuWVN2dVhkOUxxaDYxbWs1Zi1lUUNBRk9yQzVFQjBQVFhJZ3RrbnpicUFDRGhNRHVPbm9iQU84TzU0ZVY4MEVGSjdBTTUwRDJheEpuSW95WWFqVGhSbGNmcE45YlBaaWl0YzBqcGpWa2QxTXFSREo1MTlYWUlhV2FFdXo5RXdTYnNXUEU0OExGX2RFVUpzVWJRZnQ3SGZsMnRIR1RfLVVVaGxfMlJYajZDMThGNmZOTGg?oc=5",
+      "source": "PR Newswire",
+      "date": "2026-11-18T13:33:00Z",
+      "topic": "stream",
+      "topicLabel": "Streaming"
+    },
+    {
+      "title": "6 open-source projects whose communities got fed up, forked them, and won",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9zdERQVW5mNUlMR29pUURvazZqUGJWVHROTmFwQTA4MkVoXzNBR2E1TzZyenFtaXBvRktnZDNCbnM4T19OZnMwU1RZZlh6WG1VTjhYeF9PSFBYVE1DUmlPVVRGXzJQNGt0dS1oU2F5VzZXbUdia1dpMHJCc0M?oc=5",
+      "source": "MakeUseOf",
+      "date": "2026-11-18T12:01:17Z",
+      "topic": "server",
+      "topicLabel": "Media servers"
+    },
+    {
+      "title": "Samsung Soundbar Earns ‘Home Cinema’ Recognition in the U.S.Samsung Electronics’ all-in-one soundbar..",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1LWEtVYjRpNGVCUENaekREaFc2RUVJOGNWM25ld25ucWhxNVlzNmhwQ3NfS2o0ZHJ6RjJnM1M0UmRKOXhKcHh5aTVmR2k?oc=5",
+      "source": "매일경제",
+      "date": "2026-11-18T06:41:10Z",
+      "topic": "theater",
+      "topicLabel": "Home theater"
+    },
+    {
+      "title": "I've used Plex for years without paying a dime, but somehow missed these free features",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWTdBU3NOYzQtdWwwb2k3cG5DdmZQbWlDWXlWWUlfYzFqZlljNC1lUk9ldV9mS0NJYmhTSUZXcFB3aGdNUFI2anhfYlp3bTZqdnU2bGE3elVRZG9mb3hmckRGanE1NEtjOGdqVjNwVHdFU3VBX3d5YUpKQk5UTDMtYjFFQ2tzSGczRWk1WG5RcXhNRnpSaGMzRktCSE1MYVQ2WU4zUWI4c25LYXlFVVFSZGlzVWs?oc=5",
+      "source": "XDA",
+      "date": "2026-11-17T23:00:20Z",
+      "topic": "server",
+      "topicLabel": "Media servers"
+    },
+    {
+      "title": "New on Plex in December",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oMWNyRXJwQi1Na1pnQjZQWU1lU0JGd3k5amNNdkFVSVJBSWQ5MDZncHllbF9xbFhIZHJRXzBoWnRxdURiVXhJYlBONndZOFNtRGxSeC01YWhKZ0x6T0x1Ny13QjlGblJP?oc=5",
+      "source": "Plex",
+      "date": "2026-11-17T22:23:24Z",
+      "topic": "server",
+      "topicLabel": "Media servers"
+    },
+    {
+      "title": "AWOL Vision Aetherion Plus 4K Google TV laser projector arrives with Dolby Vision, 2,400 lumens, and features for gamers",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOHZuUl82QTZnTldhTUJTZ0tMTkdBNXVPa0J3OWc4aG5xbHBqMUpqX3Z4UEd2cEE1dk5mZ19nWVQ4a2FBcHdiWnE1UVJkNkdWZFlocFJ2T2FEeWlSdlhXYWxBQXdfd0lERHpCam5STVo1UHZJckR1S3gtRXBKY1BlVG1pOTJJMHRFVU1xcDdJVTlncXNIUnh4Qmg5UF9FV2NtMDBhbl9tRTgzVFRQSkx5cVYyQ0NlVHBaTUQwSTNadlk4WGVISGVtdDJuUEJoczJRbElsZHVHcGg3dXUxYzZ6anFEZ2NDYW5IVktnNk9mRnRvY19mMFE?oc=5",
+      "source": "Notebookcheck",
+      "date": "2026-11-17T20:13:00Z",
+      "topic": "audio",
+      "topicLabel": "Home audio"
+    },
+    {
+      "title": "Don't Miss This Jaw-Dropping Paramount Plus Premium Black Friday Deal That Knocks 50% Off the Price",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlRm1YSE45RjlyeTRxWGdjSURERWZfN2w4bWJLTlNZZ2dfS0t2WnQteWF3amhjeHVwb2xxOTVUVUY2T2JZd2RTVHA3VXpSSlRzOVpjbTFOM1NCbzJGRjlKdXUxb2hVbDdibllQRnNpWkpUTENuTERV?oc=5",
+      "source": "CNET",
+      "date": "2026-11-17T17:58:22Z",
+      "topic": "stream",
+      "topicLabel": "Streaming"
+    },
+    {
+      "title": "Sony’s 55-inch BRAVIA 6 OLED TV is under $1,000, saving $501.99 at Amazon",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PdXZTVTFwaDdKU2w0WTNwNkEyS09USWJMXy1BSTd1X09ZMnU5SXBoOC1yRnBVU0NMZVFPV3VJY09BOF8tb1pRNjVlLS1sc0xvM09mVDNYdVR6RF9hTzRFcmRKcnZnVEpwQUJF?oc=5",
+      "source": "MIXED News",
+      "date": "2026-11-17T17:16:17Z",
+      "topic": "tv",
+      "topicLabel": "TVs & projectors"
+    },
+    {
+      "title": "OLED or Mini LED? Powered speakers or hi-fi separates? Ask us anything this Friday",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRHplX2w2YTExMXU5Z2FTSlFFa3FZdFFmSzRBeUtPVE1oSVliNUg4TlFmbnJPelF1TzNPQktUYWpaalBRQlFRMUxUN1hteHhtTVIzWWlEdTZ5SFlpMWpueHVJRjdnWHB1MTE0Ym1BeC0xM0dlZVJDMi1VcEtSQjRXLVlFVzVSdWFfa1hrQnFkNk9qMDZiWFN4MmJHOUVYclJUdGd0X2xSMXc3clZ6d3FnSTFXekZ2T3U5ck4yTEtVMlowMWpkY0VVbTJISjFLUQ?oc=5",
+      "source": "What Hi-Fi?",
+      "date": "2026-11-17T17:02:53Z",
+      "topic": "theater",
+      "topicLabel": "Home theater"
+    },
+    {
+      "title": "Olorama launches the Immersion Controller PRO, bringing synchronized digital scent technology to the home theater",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQZEN0NGhKTzRoMWxYd3p3SnJFUjF0akI3bGx6SkYtMVJhMlg3U01NSEZGVDU3WURpNnE0RkdrOGhvaS03WXllRWV3SFJadm9yX0FHajhIbWF6eDlpbUlvR1VrZzBxcUJuSkllaE5ISVNJZDg2cThWU2VleGhkbjZrclVKWWZYeU14UEh5MmFYVE4xWk4yMEtreE5jWGNsZXViQmlCSWY4NnQ3RUtkVko5UHlDbU83bGlTQmZJeVFqdzFBS004aHZIODhLRHZwWU5WZGdQd3NIR3FHbTJjVS1nQUY0Y2NYeGtDTEtpMm9sMGhxNEdwY3lLZTRROExFMFU?oc=5",
+      "source": "Akron Beacon Journal",
+      "date": "2026-11-17T16:45:10Z",
+      "topic": "theater",
+      "topicLabel": "Home theater"
+    },
+    {
+      "title": "Three Popular Streaming Services Without Ads Cost 24% More Than in 2024",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeGdtTzlsdFpyUW5LRVBmeEVoUlp6Q2ZlQ1psTVpqQ3Npd1Y5Zjl2d0ZOMW5ZamNUYnh1enZHS0E1SkFzUnNZazBqTzhQbUM4ckczZ05LRXJnWnJXUEJoOHdlbHRNdEtzTnJ3Ym5kT2lQZE8yYUlwX29lS0Y2R29QTkMydEhsVWZHSkpaNTBn?oc=5",
+      "source": "Stock Titan",
+      "date": "2026-11-17T14:14:42Z",
+      "topic": "stream",
+      "topicLabel": "Streaming"
+    },
+    {
+      "title": "Amazon Fire TV Soundbar Plus Drops Nearly 50%, Bringing Dolby Atmos Sound to Off-Brand Speaker Prices",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZEhNeE4tSEtKcWZIYkxiMjF0ZDlPb21ETEIxQjY0ZjVjVWs4WUNqemJ2QU1lMVl0QVYyc3JBQUdSTVdBWTZCLWVHNnFQOEJNVTVGSDRrRDlSLTdyNzRURHNwNHV0enQtZGd5TW9WNWRkTmFWM3N4SU5jd1lLb2ppcjZDZXFxQjd3X2ZYN2lQR25BcWVxNTZxc0lBd3g0RmtDMnlEVGRobjNsWG9hM0pPMjNqTUhVLW44X2xHamljdUlRZUZLVTM0MWFR?oc=5",
+      "source": "Gizmodo",
+      "date": "2026-11-17T11:40:41Z",
+      "topic": "audio",
+      "topicLabel": "Home audio"
+    },
+    {
+      "title": "After a full, compact Dolby Atmos system? This discounted Sonos bundle is built around an Award-winning soundbar",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPa1BXUUhwTUZHX2lUTERsRWhlb1BESEZrcGhnalhzcll0VGEyQlhrQWtnbm5jYUh2RFE4emNTSncwMF95Vm4xbzNoUkc4M0R2U0hnZk1Id2dxMC1JdmNTZVpUaVFxVlpCSU1DTnd2NFhOM2xFYnA1UGZLM0hEX2tScFRZbW8zU0lHaEpINDY5LV92YkFRZUgzZVNYZlk5SU1pLWhWS01LX3RTeTdIR2lzQ0RxR1FPa2NQb0FiVmwzcDJTVUk1STk1dVpNQ0IyVm5IdmQzRF9fZ1I1akVOVXA1SjZBZGtvcktxR3lJNE52bGdFUQ?oc=5",
+      "source": "What Hi-Fi?",
+      "date": "2026-11-17T10:51:37Z",
+      "topic": "audio",
+      "topicLabel": "Home audio"
+    },
+    {
+      "title": "+@((!YOUTUBE TV!)) Brasil x Singapura – Ao vivo e gratuito",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPWl8yZkZkUUlmYVlZVUd5UVh6djNVU21JWXJhMVdXcU9aUm1uX1g0ZUEycHcteWFNUmZlczJwdE5rYzJGeVFLYWZtamJYQTZQU2xodmU3SVZtck8tOHo4OGtYVloxYnpvNG1ieDVZV3dSS21UV2RYdDNNY1R6TE9QSENreGJxbXowcTZkZFd2VlRKN0pNNlBsakRBc3BEemVLSF81TkNqd0MtVTRxTUJvRmRhN0F6aEFQcUk2QkR1NVNQZU1YQ1R3dUJ1M0I5aEh0YmtsYjBDbDhFNGRKSDFSazhMYmVBdmljZWFyTFZZTFVXQXZ1djJLdWp3VnBsaXFrdFU2Q0tJbkZqWE9Dd2pKWm9Ua2lELXR0MmtPenVHZExhaFR4R0ZkXzRrVHU3VU1hOWgxb1JHNy1PXzVBdlRKUkh5cnpQaGt5Wm9yYTZxVTdka0k?oc=5",
+      "source": "日本取引所グループ",
+      "date": "2026-11-17T10:12:48Z",
+      "topic": "stream",
+      "topicLabel": "Cord-cutting"
+    },
+    {
+      "title": "FEMA has a cord-cutting problem",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tRVYyU0NZeWs1YVJmMVJ2VjF3cHkwN1p1cW5ORUtNVWpQSGZlWVNsMHdtaktCOTBOQ3hOanZkaC1Nby1rcWRyQ1I4eVU5N1FYWDdwQ2pVNGVDc1Z6dEwtLUY5ZTZMR1FINklObHVPNm9uVXFRem1j?oc=5",
+      "source": "Fast Company",
+      "date": "2026-11-17T10:09:46Z",
+      "topic": "stream",
+      "topicLabel": "Cord-cutting"
+    },
+    {
+      "title": "5 Items You Need For A Home Cinema Setup Without Breaking The Bank",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWFlwY0FodHdscmMyd0pGb0VycElhNW9scEhvQ1oxek5pQ0NZbWVsYTUyM1NMS01tdjZpRy1od1VYb1NPUl9McXc0MTRnMUFMZ2tYV2JWQ2c0bHIzejkzSjVsTzMwV0o0SDljaXRsekQ3SDY2RnI1V2NVRDdvTmVyZnNPdjhXVnBDLVdJWjYwenlqLUstYzBleg?oc=5",
+      "source": "SAYS",
+      "date": "2026-11-17T09:19:00Z",
+      "topic": "theater",
+      "topicLabel": "Home theater"
+    },
+    {
+      "title": "Eastenders",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CZ3MweXNNZFIwNU9zcmR5cVdmZmF6R205OTJmUVk5aUlFdjA2U3ZIYVFGRmhQS3I0Q0lKS3NyRzJVUzl5aDBmWkd4NXIxRW9oVFdncExIXzBUOVFD?oc=5",
+      "source": "Plex",
+      "date": "2026-11-17T06:37:16Z",
+      "topic": "server",
+      "topicLabel": "Media servers"
+    },
+    {
+      "title": "Early Black Friday streaming deal: Save 50% on a year of Paramount+ Premium",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM0pUdVlKaG5TLTZJTlZSVEJRcWM2bTJuOV94SURxTmw3TERqYW5nY1J5SjRtNmd6ZGZ2cFNBaHd1ZjZBYzJOSTJiSzBsdlpKWnFtSEtwMEJlcXNSWEFoRHJseFhoTWlBMG5yVUJVcnBmVlNEQm8wcXJ6SzJQdWhwUmF0MXBNN2dMandwQ0syVmFDUWVW?oc=5",
+      "source": "Mashable",
+      "date": "2026-11-17T04:36:31Z",
+      "topic": "stream",
+      "topicLabel": "Streaming"
+    }
   ]
 }
