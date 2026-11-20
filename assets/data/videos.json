@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T08:10:51Z",
+  "updated": "2026-11-20T15:35:00Z",
   "featured": [
     {
       "id": "zRBJPk9qej4",
@@ -100,6 +100,48 @@
   ],
   "latest": [
     {
+      "id": "TEyMMJkIhuE",
+      "title": "Klipsch Rebellion stand-mount speakers | Crutchfield",
+      "channel": "CRUTCHFIELD",
+      "published": "2026-11-20T15:03:59+00:00",
+      "topic": "theater"
+    },
+    {
+      "id": "XW2lGGDx-iM",
+      "title": "Bi-Amping Explained: Is It Worth It for Your Speakers?",
+      "channel": "Audio Advice",
+      "published": "2026-11-20T14:00:15+00:00",
+      "topic": "theater"
+    },
+    {
+      "id": "eSrNMgMRe_Q",
+      "title": "A Big Upgrade Is Coming to YouTube TV, Disney+'s Christmas Lineup, Roku App Update, & More",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-20T11:59:12+00:00",
+      "topic": "stream"
+    },
+    {
+      "id": "d3UaVoP6dPg",
+      "title": "GTA 6's HDR Calibration is 𝗕𝗥𝗢𝗞𝗘𝗡… Here's What to Do Instead",
+      "channel": "HDTVTest",
+      "published": "2026-11-20T02:10:18+00:00",
+      "topic": "tv"
+    },
+    {
+      "id": "OGHcNGBL3xs",
+      "title": "Focal Bathys MG: What's NEW & Can They Challenge Sony, Bose & B&W? 🎧🔥",
+      "channel": "Audioholics",
+      "published": "2026-11-19T16:50:32+00:00",
+      "topic": "audio"
+    },
+    {
+      "id": "MCyAm6eHc6s",
+      "title": "Fox Selling Roku?",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-19T12:01:16+00:00",
+      "topic": "stream"
+    },
+    {
       "id": "I-O4HgXksoA",
       "title": "Are Vintage Design Speakers Still Worth It in 2026? Acoustic Energy AE2 40th Anniversary Review",
       "channel": "AVForums",
@@ -135,53 +177,11 @@
       "topic": "tv"
     },
     {
-      "id": "6OP1CEjwysY",
-      "title": "The UPN Network is Back & It's Free",
-      "channel": "Cord Cutters News",
-      "published": "2026-11-17T12:05:26+00:00",
-      "topic": "stream"
-    },
-    {
       "id": "agDJoAuQb3k",
       "title": "Magcubic HY350GT $169 Projector Looks TOO GOOD on a 150\" Screen! 😱",
       "channel": "Audioholics",
       "published": "2026-11-16T21:06:45+00:00",
       "topic": "audio"
-    },
-    {
-      "id": "KYwErQ32liU",
-      "title": "AT&T & Verizon Shutting Down Phone & DSL Internet",
-      "channel": "Cord Cutters News",
-      "published": "2026-11-16T12:00:14+00:00",
-      "topic": "stream"
-    },
-    {
-      "id": "D9BbLXiUvz0",
-      "title": "MacBook Pro OLED vs Mini LED 👀",
-      "channel": "HDTVTest",
-      "published": "2026-11-14T19:17:09+00:00",
-      "topic": "tv"
-    },
-    {
-      "id": "Fd2mPNSjXMQ",
-      "title": "EXCLUSIVE FIRST LOOK! Chesky Audio LC1.2 & LC2.2 Speakers | Capital Audiofest 2026",
-      "channel": "AV NIRVANA – Home Theater and AV FORUM",
-      "published": "2026-11-13T20:37:01+00:00",
-      "topic": "theater"
-    },
-    {
-      "id": "BqMaHgkOvxE",
-      "title": "A Mini LED TV Bargain on Black Friday?",
-      "channel": "HDTVTest",
-      "published": "2026-11-13T16:43:50+00:00",
-      "topic": "tv"
-    },
-    {
-      "id": "xKINYKFBkJM",
-      "title": "I Tested the New Bowers & Wilkins 805 D5, Here's What Happened",
-      "channel": "AVForums",
-      "published": "2026-11-13T16:00:37+00:00",
-      "topic": "theater"
     }
   ]
 }
