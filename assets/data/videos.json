@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T15:35:00Z",
+  "updated": "2026-11-21T14:45:46Z",
   "featured": [
     {
       "id": "zRBJPk9qej4",
@@ -100,6 +100,20 @@
   ],
   "latest": [
     {
+      "id": "7Q6eVmSO5AY",
+      "title": "The End of Home Phones, YouTube TV Upgrade, & UPN Network is Back",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-21T13:00:53+00:00",
+      "topic": "stream"
+    },
+    {
+      "id": "j2pqhwOkt0I",
+      "title": "Arendal 1528 Bookshelf 8: This Walnut Finish Is STUNNING! 😍🔊",
+      "channel": "Audioholics",
+      "published": "2026-11-20T19:58:58+00:00",
+      "topic": "audio"
+    },
+    {
       "id": "TEyMMJkIhuE",
       "title": "Klipsch Rebellion stand-mount speakers | Crutchfield",
       "channel": "CRUTCHFIELD",
@@ -156,13 +170,6 @@
       "topic": "theater"
     },
     {
-      "id": "n8yfdGY-GcU",
-      "title": "Disney+ & Hulu Are Merging",
-      "channel": "Cord Cutters News",
-      "published": "2026-11-18T12:00:22+00:00",
-      "topic": "stream"
-    },
-    {
       "id": "sgjh9HlINso",
       "title": "Wharfedale Elysian 1R and 2R stand-mount speakers | Crutchfield",
       "channel": "CRUTCHFIELD",
@@ -175,13 +182,6 @@
       "channel": "HDTVTest",
       "published": "2026-11-17T14:38:34+00:00",
       "topic": "tv"
-    },
-    {
-      "id": "agDJoAuQb3k",
-      "title": "Magcubic HY350GT $169 Projector Looks TOO GOOD on a 150\" Screen! 😱",
-      "channel": "Audioholics",
-      "published": "2026-11-16T21:06:45+00:00",
-      "topic": "audio"
     }
   ]
 }
