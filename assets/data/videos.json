@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T14:41:48Z",
+  "updated": "2026-11-23T18:24:26Z",
   "featured": [
     {
       "id": "zRBJPk9qej4",
@@ -100,17 +100,31 @@
   ],
   "latest": [
     {
+      "id": "1T3vVtEeJKQ",
+      "title": "Another Major Cable TV Network Is Shutting Down Again",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-23T12:02:09+00:00",
+      "topic": "stream"
+    },
+    {
+      "id": "c1LShRe4cww",
+      "title": "Review: The 2026 Apple TV Is An Overpriced Disappointment",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-22T19:51:13+00:00",
+      "topic": "stream"
+    },
+    {
+      "id": "LNuIE2nsZFQ",
+      "title": "Arendal Sound Reveals NEW 1528 Wood Finishes, 1610 Black Edition & More!",
+      "channel": "Audioholics",
+      "published": "2026-11-22T17:00:39+00:00",
+      "topic": "audio"
+    },
+    {
       "id": "2ERhSg2CQP0",
       "title": "Hulu And Disney+ Are Merging - Here is Everything You Need to Know",
       "channel": "Cord Cutters News",
       "published": "2026-11-22T12:52:23+00:00",
-      "topic": "stream"
-    },
-    {
-      "id": "7Q6eVmSO5AY",
-      "title": "The End of Home Phones, YouTube TV Upgrade, & UPN Network is Back",
-      "channel": "Cord Cutters News",
-      "published": "2026-11-21T13:00:53+00:00",
       "topic": "stream"
     },
     {
@@ -129,17 +143,10 @@
     },
     {
       "id": "XW2lGGDx-iM",
-      "title": "Bi-Amping Explained: Is It Worth It for Your Speakers?",
+      "title": "Bi-Amping vs Bi-Wiring: What Actually Changes?",
       "channel": "Audio Advice",
       "published": "2026-11-20T14:00:15+00:00",
       "topic": "theater"
-    },
-    {
-      "id": "eSrNMgMRe_Q",
-      "title": "A Big Upgrade Is Coming to YouTube TV, Disney+'s Christmas Lineup, Roku App Update, & More",
-      "channel": "Cord Cutters News",
-      "published": "2026-11-20T11:59:12+00:00",
-      "topic": "stream"
     },
     {
       "id": "d3UaVoP6dPg",
@@ -175,13 +182,6 @@
       "channel": "CRUTCHFIELD",
       "published": "2026-11-17T20:39:50+00:00",
       "topic": "theater"
-    },
-    {
-      "id": "pkItpmIyfTk",
-      "title": "The First Certified HDMI 2.2 Cables Are Here… Should You Upgrade?",
-      "channel": "HDTVTest",
-      "published": "2026-11-17T14:38:34+00:00",
-      "topic": "tv"
     }
   ]
 }
