@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:54:50Z",
+  "updated": "2026-11-25T17:22:32Z",
   "featured": [
     {
       "id": "zRBJPk9qej4",
@@ -100,6 +100,13 @@
   ],
   "latest": [
     {
+      "id": "ZXo5zbvjcC8",
+      "title": "MeTV is Now The King of TV",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-25T12:03:48+00:00",
+      "topic": "stream"
+    },
+    {
       "id": "0o_e9oL4d9I",
       "title": "YouTube TV & Netflix About to Get More Expensive",
       "channel": "Cord Cutters News",
@@ -111,13 +118,6 @@
       "title": "Another Major Cable TV Network Is Shutting Down Again",
       "channel": "Cord Cutters News",
       "published": "2026-11-23T12:02:09+00:00",
-      "topic": "stream"
-    },
-    {
-      "id": "c1LShRe4cww",
-      "title": "Review: The 2026 Apple TV Is An Overpriced Disappointment",
-      "channel": "Cord Cutters News",
-      "published": "2026-11-22T19:51:13+00:00",
       "topic": "stream"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "id": "I-O4HgXksoA",
-      "title": "Are Vintage Design Speakers Still Worth It in 2026? Acoustic Energy AE2 40th Anniversary Review",
+      "title": "Why We Tested the Acoustic Energy AE2 40th Anniversary Edition",
       "channel": "AVForums",
       "published": "2026-11-18T17:00:36+00:00",
       "topic": "theater"
