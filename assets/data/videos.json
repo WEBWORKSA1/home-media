@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T16:47:34Z",
+  "updated": "2026-11-28T15:39:37Z",
   "featured": [
     {
       "id": "zRBJPk9qej4",
@@ -100,6 +100,13 @@
   ],
   "latest": [
     {
+      "id": "G-Gf6DCBsPM",
+      "title": "Another Major Cable TV Network Is Shutting Down, YouTube TV Grows, Tubi Expands, & More",
+      "channel": "Cord Cutters News",
+      "published": "2026-11-28T13:00:04+00:00",
+      "topic": "stream"
+    },
+    {
       "id": "yyDhkallHIw",
       "title": "YouTube TV's Big Upgrade, Roku Loses Another streaming Service, Blu-rays Are Back At Best Buy & More",
       "channel": "Cord Cutters News",
@@ -126,13 +133,6 @@
       "channel": "HDTVTest",
       "published": "2026-11-25T21:00:06+00:00",
       "topic": "tv"
-    },
-    {
-      "id": "ZXo5zbvjcC8",
-      "title": "MeTV is Now The King of TV",
-      "channel": "Cord Cutters News",
-      "published": "2026-11-25T12:03:48+00:00",
-      "topic": "stream"
     },
     {
       "id": "LNuIE2nsZFQ",
